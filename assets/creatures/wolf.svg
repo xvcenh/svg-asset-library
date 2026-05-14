@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160"
+  data-asset-id="wolf" data-layer="creature"
+  data-tags="wolf,warg,beast,狼,野兽,animal,canine"
+  data-origin="center-bottom">
+  <!-- Tail -->
+  <path d="M25,95 Q10,80 15,65 Q18,55 25,60" fill="#5a5a5a" stroke="#4a4a4a" stroke-width="1"/>
+  <!-- Body -->
+  <ellipse cx="75" cy="95" rx="40" ry="22" fill="#6a6a6a"/>
+  <ellipse cx="75" cy="100" rx="35" ry="15" fill="#8a8a8a" opacity="0.4"/>
+  <!-- Back legs -->
+  <rect x="45" y="108" width="12" height="30" rx="4" fill="#5a5a5a"/>
+  <rect x="60" y="108" width="12" height="30" rx="4" fill="#5a5a5a"/>
+  <!-- Front legs -->
+  <rect x="90" y="105" width="12" height="33" rx="4" fill="#6a6a6a"/>
+  <rect x="105" y="105" width="12" height="33" rx="4" fill="#6a6a6a"/>
+  <!-- Paws -->
+  <ellipse cx="51" cy="140" rx="8" ry="4" fill="#4a4a4a"/>
+  <ellipse cx="66" cy="140" rx="8" ry="4" fill="#4a4a4a"/>
+  <ellipse cx="96" cy="140" rx="8" ry="4" fill="#5a5a5a"/>
+  <ellipse cx="111" cy="140" rx="8" ry="4" fill="#5a5a5a"/>
+  <!-- Neck -->
+  <ellipse cx="110" cy="80" rx="15" ry="18" fill="#7a7a7a"/>
+  <!-- Chest fur -->
+  <ellipse cx="115" cy="95" rx="10" ry="12" fill="#9a9a9a" opacity="0.5"/>
+  <!-- Head -->
+  <ellipse cx="125" cy="65" rx="18" ry="14" fill="#7a7a7a"/>
+  <!-- Snout -->
+  <ellipse cx="140" cy="68" rx="12" ry="8" fill="#6a6a6a"/>
+  <!-- Nose -->
+  <ellipse cx="150" cy="66" rx="4" ry="3" fill="#2a2a2a"/>
+  <!-- Eyes -->
+  <ellipse cx="130" cy="60" rx="4" ry="3" fill="#ffd700"/>
+  <ellipse cx="130" cy="60" rx="2" ry="3" fill="#1a1a1a"/>
+  <!-- Ears -->
+  <polygon points="118,52 112,35 124,48" fill="#6a6a6a"/>
+  <polygon points="132,50 130,33 138,46" fill="#6a6a6a"/>
+  <polygon points="119,50 114,38 123,48" fill="#8a6a5a"/>
+  <polygon points="133,48 131,36 137,46" fill="#8a6a5a"/>
+  <!-- Mouth line -->
+  <path d="M142,72 Q148,74 152,72" fill="none" stroke="#3a3a3a" stroke-width="1"/>
+  <!-- Teeth hint -->
+  <polygon points="145,72 144,76 146,76" fill="#e0e0e0"/>
+</svg>

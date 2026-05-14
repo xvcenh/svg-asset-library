@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80"
+  data-asset-id="anvil" data-layer="object"
+  data-tags="anvil,forge,smith,铁砧,锻造,metal,crafting"
+  data-origin="center-bottom">
+  <!-- Base -->
+  <rect x="15" y="60" width="50" height="12" rx="2" fill="#4a4a4a"/>
+  <!-- Leg -->
+  <rect x="30" y="48" width="20" height="14" rx="2" fill="#5a5a5a"/>
+  <!-- Anvil body -->
+  <path d="M10,35 L10,48 L70,48 L70,35 Q65,30 55,30 L25,30 Q15,30 10,35Z" fill="#6a6a6a"/>
+  <!-- Top surface -->
+  <rect x="10" y="32" width="60" height="5" rx="1" fill="#8a8a8a"/>
+  <!-- Horn -->
+  <path d="M65,35 Q75,38 78,42 L78,45 L70,45 L70,35Z" fill="#7a7a7a"/>
+  <!-- Hardie hole -->
+  <rect x="55" y="33" width="6" height="4" rx="1" fill="#3a3a3a"/>
+  <!-- Highlight -->
+  <rect x="12" y="33" width="40" height="1" fill="rgba(255,255,255,0.2)"/>
+</svg>

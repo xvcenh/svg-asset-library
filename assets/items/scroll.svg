@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60"
+  data-asset-id="scroll" data-layer="item"
+  data-tags="scroll,paper,document,卷轴,文书,magic,spell"
+  data-origin="center-bottom">
+  <!-- Scroll body -->
+  <rect x="12" y="15" width="36" height="35" rx="2" fill="#f5e6c8"/>
+  <!-- Top roll -->
+  <ellipse cx="30" cy="15" rx="20" ry="5" fill="#e6d5a8" stroke="#c4a86a" stroke-width="1"/>
+  <!-- Bottom roll -->
+  <ellipse cx="30" cy="50" rx="20" ry="5" fill="#e6d5a8" stroke="#c4a86a" stroke-width="1"/>
+  <!-- Text lines -->
+  <g stroke="#8a7a5a" stroke-width="1" opacity="0.6">
+    <line x1="18" y1="24" x2="42" y2="24"/>
+    <line x1="18" y1="30" x2="38" y2="30"/>
+    <line x1="18" y1="36" x2="40" y2="36"/>
+    <line x1="18" y1="42" x2="35" y2="42"/>
+  </g>
+  <!-- Seal -->
+  <circle cx="38" cy="45" r="4" fill="#cc3333"/>
+</svg>

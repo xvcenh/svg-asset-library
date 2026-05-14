@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160"
+  data-asset-id="spider" data-layer="creature"
+  data-tags="spider,arachnid,蛛,蜘蛛,bug,insect,monster"
+  data-origin="center-bottom">
+  <!-- Web threads -->
+  <line x1="80" y1="0" x2="80" y2="40" stroke="#aaa" stroke-width="0.5" opacity="0.4"/>
+  <line x1="40" y1="0" x2="60" y2="50" stroke="#aaa" stroke-width="0.5" opacity="0.3"/>
+  <line x1="120" y1="0" x2="100" y2="50" stroke="#aaa" stroke-width="0.5" opacity="0.3"/>
+  <!-- Legs (8) -->
+  <g stroke="#3a2a3a" stroke-width="3" fill="none" stroke-linecap="round">
+    <!-- Left legs -->
+    <path d="M65,85 Q40,70 20,50"/>
+    <path d="M62,90 Q35,80 15,75"/>
+    <path d="M60,95 Q35,95 10,110"/>
+    <path d="M62,100 Q40,110 20,130"/>
+    <!-- Right legs -->
+    <path d="M95,85 Q120,70 140,50"/>
+    <path d="M98,90 Q125,80 145,75"/>
+    <path d="M100,95 Q125,95 150,110"/>
+    <path d="M98,100 Q120,110 140,130"/>
+  </g>
+  <!-- Abdomen -->
+  <ellipse cx="70" cy="100" rx="22" ry="18" fill="#2a1a2a"/>
+  <ellipse cx="70" cy="100" rx="18" ry="14" fill="#3a2a3a"/>
+  <!-- Pattern on abdomen -->
+  <path d="M62,95 Q70,88 78,95 Q70,102 62,95" fill="#cc3333" opacity="0.5"/>
+  <!-- Thorax -->
+  <ellipse cx="85" cy="80" rx="16" ry="12" fill="#2a1a2a"/>
+  <ellipse cx="85" cy="80" rx="12" ry="9" fill="#3a2a3a"/>
+  <!-- Head -->
+  <circle cx="100" cy="72" r="10" fill="#2a1a2a"/>
+  <!-- Eyes (8, arranged in 2 rows) -->
+  <circle cx="96" cy="68" r="2.5" fill="#cc0000"/>
+  <circle cx="104" cy="68" r="2.5" fill="#cc0000"/>
+  <circle cx="93" cy="72" r="2" fill="#cc0000"/>
+  <circle cx="107" cy="72" r="2" fill="#cc0000"/>
+  <circle cx="97" cy="75" r="1.5" fill="#aa0000"/>
+  <circle cx="103" cy="75" r="1.5" fill="#aa0000"/>
+  <!-- Fangs -->
+  <path d="M97,78 Q95,84 97,86" stroke="#e0e0e0" stroke-width="2" fill="none"/>
+  <path d="M103,78 Q105,84 103,86" stroke="#e0e0e0" stroke-width="2" fill="none"/>
+  <!-- Hairs on legs -->
+  <g stroke="#4a3a4a" stroke-width="1" opacity="0.5">
+    <line x1="30" y1="58" x2="25" y2="52"/>
+    <line x1="25" y1="73" x2="18" y2="70"/>
+    <line x1="130" y1="58" x2="135" y2="52"/>
+    <line x1="135" y1="73" x2="142" y2="70"/>
+  </g>
+</svg>

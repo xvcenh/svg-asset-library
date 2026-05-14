@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80"
+  data-asset-id="campfire" data-layer="object"
+  data-tags="campfire,fire,camp,篝火,营火,warmth,cooking"
+  data-origin="center-bottom">
+  <defs>
+    <radialGradient id="cf-glow" cx="0.5" cy="0.8" r="0.5">
+      <stop offset="0%" stop-color="#ff6600" opacity="0.3"/>
+      <stop offset="100%" stop-color="#ff2200" opacity="0"/>
+    </radialGradient>
+  </defs>
+  <!-- Glow -->
+  <circle cx="40" cy="55" r="30" fill="url(#cf-glow)"/>
+  <!-- Logs -->
+  <rect x="15" y="62" width="25" height="6" rx="3" fill="#5a3a10" transform="rotate(-15 27 65)"/>
+  <rect x="40" y="62" width="25" height="6" rx="3" fill="#4a2a08" transform="rotate(15 52 65)"/>
+  <rect x="25" y="65" width="20" height="5" rx="2" fill="#3a2008"/>
+  <!-- Stones around -->
+  <circle cx="18" cy="68" r="5" fill="#5a5a5a"/>
+  <circle cx="30" cy="72" r="4" fill="#4a4a4a"/>
+  <circle cx="50" cy="72" r="5" fill="#5a5a5a"/>
+  <circle cx="62" cy="68" r="4" fill="#4a4a4a"/>
+  <!-- Flames -->
+  <path d="M40,60 Q32,45 35,30 Q38,20 40,15 Q42,20 45,30 Q48,45 40,60" fill="#ff4400" opacity="0.9">
+    <animate attributeName="d" dur="0.6s" repeatCount="indefinite"
+      values="M40,60 Q32,45 35,30 Q38,20 40,15 Q42,20 45,30 Q48,45 40,60;
+              M40,60 Q30,42 33,28 Q36,16 40,10 Q44,16 47,28 Q50,42 40,60;
+              M40,60 Q32,45 35,30 Q38,20 40,15 Q42,20 45,30 Q48,45 40,60"/>
+  </path>
+  <path d="M35,60 Q30,50 32,38 Q34,28 36,22 Q38,28 37,38 Q36,50 35,60" fill="#ff8800" opacity="0.8">
+    <animate attributeName="d" dur="0.5s" repeatCount="indefinite"
+      values="M35,60 Q30,50 32,38 Q34,28 36,22 Q38,28 37,38 Q36,50 35,60;
+              M35,60 Q28,48 30,35 Q32,25 35,18 Q38,25 37,35 Q38,48 35,60;
+              M35,60 Q30,50 32,38 Q34,28 36,22 Q38,28 37,38 Q36,50 35,60"/>
+  </path>
+  <path d="M45,60 Q48,50 46,38 Q44,28 43,22 Q42,28 44,38 Q46,50 45,60" fill="#ffaa00" opacity="0.7">
+    <animate attributeName="d" dur="0.55s" repeatCount="indefinite"
+      values="M45,60 Q48,50 46,38 Q44,28 43,22 Q42,28 44,38 Q46,50 45,60;
+              M45,60 Q50,48 48,35 Q46,25 44,18 Q42,25 44,35 Q48,48 45,60;
+              M45,60 Q48,50 46,38 Q44,28 43,22 Q42,28 44,38 Q46,50 45,60"/>
+  </path>
+  <!-- Embers -->
+  <circle cx="36" cy="25" r="1.5" fill="#ffcc00" opacity="0.7">
+    <animate attributeName="cy" dur="1.5s" repeatCount="indefinite" values="25;10;25"/>
+    <animate attributeName="opacity" dur="1.5s" repeatCount="indefinite" values="0.7;0;0.7"/>
+  </circle>
+  <circle cx="44" cy="20" r="1" fill="#ff8800" opacity="0.6">
+    <animate attributeName="cy" dur="1.8s" repeatCount="indefinite" values="20;5;20"/>
+    <animate attributeName="opacity" dur="1.8s" repeatCount="indefinite" values="0.6;0;0.6"/>
+  </circle>
+</svg>

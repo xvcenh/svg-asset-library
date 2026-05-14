@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60"
+  data-asset-id="potion-health" data-layer="item"
+  data-tags="potion,health,heal,药水,治疗,red,restoration"
+  data-origin="center-bottom">
+  <defs>
+    <linearGradient id="ph-liquid" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ff4444"/>
+      <stop offset="100%" stop-color="#cc0000"/>
+    </linearGradient>
+  </defs>
+  <!-- Bottle body -->
+  <path d="M18,30 Q15,30 15,35 L15,48 Q15,55 22,55 L38,55 Q45,55 45,48 L45,35 Q45,30 42,30Z" fill="#e0e0e0" stroke="#aaa" stroke-width="1"/>
+  <!-- Liquid -->
+  <path d="M17,35 L17,48 Q17,53 23,53 L37,53 Q43,53 43,48 L43,35Z" fill="url(#ph-liquid)"/>
+  <!-- Neck -->
+  <rect x="24" y="22" width="12" height="10" rx="2" fill="#e0e0e0" stroke="#aaa" stroke-width="1"/>
+  <!-- Cork -->
+  <rect x="25" y="18" width="10" height="6" rx="2" fill="#8b6914"/>
+  <!-- Highlight -->
+  <path d="M22,35 Q20,42 22,50" fill="none" stroke="rgba(255,255,255,0.4)" stroke-width="2"/>
+  <!-- Heart label -->
+  <text x="30" y="48" text-anchor="middle" font-size="10" fill="white" font-weight="bold">♥</text>
+  <!-- Bubble -->
+  <circle cx="32" cy="42" r="2" fill="rgba(255,255,255,0.3)"/>
+</svg>

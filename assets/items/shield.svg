@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60"
+  data-asset-id="shield" data-layer="item"
+  data-tags="shield,defense,guard,盾,防具,armor,protection"
+  data-origin="center-bottom">
+  <!-- Shield body -->
+  <path d="M30,5 L50,15 L48,42 Q40,55 30,58 Q20,55 12,42 L10,15Z" fill="#8b6914" stroke="#6b4914" stroke-width="2"/>
+  <!-- Inner border -->
+  <path d="M30,10 L46,18 L44,40 Q38,50 30,53 Q22,50 16,40 L14,18Z" fill="none" stroke="#ffd700" stroke-width="1"/>
+  <!-- Center emblem -->
+  <circle cx="30" cy="30" r="8" fill="#6b4914" stroke="#ffd700" stroke-width="1"/>
+  <!-- Cross emblem -->
+  <line x1="30" y1="24" x2="30" y2="36" stroke="#ffd700" stroke-width="2"/>
+  <line x1="24" y1="30" x2="36" y2="30" stroke="#ffd700" stroke-width="2"/>
+  <!-- Corner rivets -->
+  <circle cx="30" cy="12" r="2" fill="#ffd700"/>
+  <circle cx="18" cy="22" r="2" fill="#ffd700"/>
+  <circle cx="42" cy="22" r="2" fill="#ffd700"/>
+</svg>

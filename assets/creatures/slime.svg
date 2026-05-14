@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120"
+  data-asset-id="slime" data-layer="creature"
+  data-tags="slime,goo,ooze,史莱姆,果冻,monster,green"
+  data-origin="center-bottom">
+  <defs>
+    <radialGradient id="sl-body" cx="0.4" cy="0.3" r="0.6">
+      <stop offset="0%" stop-color="#66dd66"/>
+      <stop offset="70%" stop-color="#33aa33"/>
+      <stop offset="100%" stop-color="#228822"/>
+    </radialGradient>
+  </defs>
+  <!-- Shadow -->
+  <ellipse cx="60" cy="108" rx="35" ry="8" fill="rgba(0,0,0,0.3)"/>
+  <!-- Body -->
+  <path d="M20,90 Q15,60 25,40 Q35,20 60,18 Q85,20 95,40 Q105,60 100,90 Q85,100 60,102 Q35,100 20,90Z" fill="url(#sl-body)"/>
+  <!-- Highlight -->
+  <ellipse cx="45" cy="40" rx="12" ry="8" fill="rgba(255,255,255,0.3)" transform="rotate(-20 45 40)"/>
+  <!-- Eyes -->
+  <ellipse cx="48" cy="55" rx="8" ry="10" fill="white"/>
+  <ellipse cx="72" cy="55" rx="8" ry="10" fill="white"/>
+  <ellipse cx="50" cy="57" rx="4" ry="6" fill="#1a1a1a"/>
+  <ellipse cx="74" cy="57" rx="4" ry="6" fill="#1a1a1a"/>
+  <!-- Eye highlights -->
+  <circle cx="47" cy="52" r="2" fill="white"/>
+  <circle cx="71" cy="52" r="2" fill="white"/>
+  <!-- Mouth -->
+  <path d="M50,72 Q60,78 70,72" fill="none" stroke="#228822" stroke-width="2"/>
+  <!-- Drip animation -->
+  <ellipse cx="60" cy="105" rx="5" ry="3" fill="#33aa33" opacity="0.6">
+    <animate attributeName="ry" dur="2s" repeatCount="indefinite" values="3;5;3"/>
+    <animate attributeName="opacity" dur="2s" repeatCount="indefinite" values="0.6;0.3;0.6"/>
+  </ellipse>
+</svg>
