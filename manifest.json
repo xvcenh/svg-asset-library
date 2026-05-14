@@ -1,0 +1,322 @@
+{
+  "assets": [
+    {
+      "id": "castle-gate",
+      "path": "assets/backgrounds/castle-gate.svg",
+      "layer": "background",
+      "tags": "castle,gate,fortress,medieval,stone,outdoor"
+    },
+    {
+      "id": "bg-castle",
+      "path": "assets/backgrounds/castle.svg",
+      "layer": "background",
+      "tags": "castle,fortress,tower,gate"
+    },
+    {
+      "id": "cave-entrance",
+      "path": "assets/backgrounds/cave-entrance.svg",
+      "layer": "background",
+      "tags": "cave,entrance,rock,dark,dungeon,outdoor"
+    },
+    {
+      "id": "bg-cave",
+      "path": "assets/backgrounds/cave.svg",
+      "layer": "background",
+      "tags": "cave,dungeon,underground,dark"
+    },
+    {
+      "id": "crossroad",
+      "path": "assets/backgrounds/crossroad.svg",
+      "layer": "background",
+      "tags": "crossroad,village,path,intersection,outdoor"
+    },
+    {
+      "id": "forest-day",
+      "path": "assets/backgrounds/forest-day.svg",
+      "layer": "background",
+      "tags": "forest,day,nature,trees,outdoor"
+    },
+    {
+      "id": "forest-night",
+      "path": "assets/backgrounds/forest-night.svg",
+      "layer": "background",
+      "tags": "forest,night,nature,trees,moonlight,outdoor"
+    },
+    {
+      "id": "bg-forest",
+      "path": "assets/backgrounds/forest.svg",
+      "layer": "background",
+      "tags": "forest,woods,tree,nature"
+    },
+    {
+      "id": "market",
+      "path": "assets/backgrounds/market.svg",
+      "layer": "background",
+      "tags": "market,stalls,village,shopping,outdoor"
+    },
+    {
+      "id": "bg-mountain",
+      "path": "assets/backgrounds/mountain.svg",
+      "layer": "background",
+      "tags": "mountain,peak,highland"
+    },
+    {
+      "id": "bg-river",
+      "path": "assets/backgrounds/river.svg",
+      "layer": "background",
+      "tags": "river,water,stream,bridge"
+    },
+    {
+      "id": "tavern-interior",
+      "path": "assets/backgrounds/tavern-interior.svg",
+      "layer": "background",
+      "tags": "tavern,interior,bar,fireplace,cozy,indoor"
+    },
+    {
+      "id": "bg-tavern",
+      "path": "assets/backgrounds/tavern.svg",
+      "layer": "background",
+      "tags": "tavern,inn,bar,drink"
+    },
+    {
+      "id": "town-square",
+      "path": "assets/backgrounds/town-square.svg",
+      "layer": "background",
+      "tags": "town,square,fountain,village,market,outdoor"
+    },
+    {
+      "id": "bg-village",
+      "path": "assets/backgrounds/village.svg",
+      "layer": "background",
+      "tags": "village,town,houses,rural"
+    },
+    {
+      "id": "animal-horse",
+      "path": "assets/characters/animal-horse.svg",
+      "layer": "character",
+      "tags": "animal,horse,steed,mount,livestock,idle"
+    },
+    {
+      "id": "animal-sheep",
+      "path": "assets/characters/animal-sheep.svg",
+      "layer": "character",
+      "tags": "animal,sheep,livestock,farm,npc,idle"
+    },
+    {
+      "id": "char-bard",
+      "path": "assets/characters/bard.svg",
+      "layer": "character",
+      "tags": "bard,musician,singer,entertainer"
+    },
+    {
+      "id": "char-guard",
+      "path": "assets/characters/guard.svg",
+      "layer": "character",
+      "tags": "guard,sentinel,patrol,soldier"
+    },
+    {
+      "id": "char-healer",
+      "path": "assets/characters/healer.svg",
+      "layer": "character",
+      "tags": "healer,priest,cleric,medic"
+    },
+    {
+      "id": "mage-idle",
+      "path": "assets/characters/mage-idle.svg",
+      "layer": "character",
+      "tags": "mage,wizard,robed,npc,caster,magic,idle"
+    },
+    {
+      "id": "char-mage",
+      "path": "assets/characters/mage.svg",
+      "layer": "character",
+      "tags": "mage,wizard,sorcerer,magic"
+    },
+    {
+      "id": "char-merchant",
+      "path": "assets/characters/merchant.svg",
+      "layer": "character",
+      "tags": "merchant,trader,shopkeeper,vendor"
+    },
+    {
+      "id": "npc-guard",
+      "path": "assets/characters/npc-guard.svg",
+      "layer": "character",
+      "tags": "guard,soldier,spear,npc,watchman,idle"
+    },
+    {
+      "id": "npc-merchant",
+      "path": "assets/characters/npc-merchant.svg",
+      "layer": "character",
+      "tags": "merchant,trader,npc,shopkeeper,goods,idle"
+    },
+    {
+      "id": "char-rogue",
+      "path": "assets/characters/rogue.svg",
+      "layer": "character",
+      "tags": "rogue,thief,assassin,shadow"
+    },
+    {
+      "id": "char-villager",
+      "path": "assets/characters/villager.svg",
+      "layer": "character",
+      "tags": "villager,citizen,commoner,folk"
+    },
+    {
+      "id": "warrior-idle",
+      "path": "assets/characters/warrior-idle.svg",
+      "layer": "character",
+      "tags": "warrior,knight,armored,npc,fighter,idle"
+    },
+    {
+      "id": "char-warrior",
+      "path": "assets/characters/warrior.svg",
+      "layer": "character",
+      "tags": "warrior,fighter,soldier,knight"
+    },
+    {
+      "id": "dragon",
+      "path": "assets/creatures/dragon.svg",
+      "layer": "creature",
+      "tags": "dragon,drake,wyrm,龙,火龙,boss,monster,reptile"
+    },
+    {
+      "id": "skeleton",
+      "path": "assets/creatures/skeleton.svg",
+      "layer": "creature",
+      "tags": "skeleton,undead,骷髅,亡灵,bones,undead,monster"
+    },
+    {
+      "id": "slime",
+      "path": "assets/creatures/slime.svg",
+      "layer": "creature",
+      "tags": "slime,goo,ooze,史莱姆,果冻,monster,green"
+    },
+    {
+      "id": "spider",
+      "path": "assets/creatures/spider.svg",
+      "layer": "creature",
+      "tags": "spider,arachnid,蛛,蜘蛛,bug,insect,monster"
+    },
+    {
+      "id": "wolf",
+      "path": "assets/creatures/wolf.svg",
+      "layer": "creature",
+      "tags": "wolf,warg,beast,狼,野兽,animal,canine"
+    },
+    {
+      "id": "fire",
+      "path": "assets/effects/fire.svg",
+      "layer": "effect",
+      "tags": "fire,flame,effect,burning,heat,light"
+    },
+    {
+      "id": "fog",
+      "path": "assets/effects/fog.svg",
+      "layer": "effect",
+      "tags": "fog,mist,overlay,atmosphere,effect,weather"
+    },
+    {
+      "id": "magic-sparkle",
+      "path": "assets/effects/magic-sparkle.svg",
+      "layer": "effect",
+      "tags": "magic,sparkle,particles,effect,glow,enchantment"
+    },
+    {
+      "id": "bow",
+      "path": "assets/items/bow.svg",
+      "layer": "item",
+      "tags": "bow,arrow,ranged,弓,箭,weapon,hunter"
+    },
+    {
+      "id": "crown",
+      "path": "assets/items/crown.svg",
+      "layer": "item",
+      "tags": "crown,king,royalty,皇冠,王冠,throne,gold"
+    },
+    {
+      "id": "key",
+      "path": "assets/items/key.svg",
+      "layer": "item",
+      "tags": "key,lock,unlock,钥匙,开锁,treasure"
+    },
+    {
+      "id": "potion-health",
+      "path": "assets/items/potion-health.svg",
+      "layer": "item",
+      "tags": "potion,health,heal,药水,治疗,red,restoration"
+    },
+    {
+      "id": "scroll",
+      "path": "assets/items/scroll.svg",
+      "layer": "item",
+      "tags": "scroll,paper,document,卷轴,文书,magic,spell"
+    },
+    {
+      "id": "shield",
+      "path": "assets/items/shield.svg",
+      "layer": "item",
+      "tags": "shield,defense,guard,盾,防具,armor,protection"
+    },
+    {
+      "id": "torch-item",
+      "path": "assets/items/torch.svg",
+      "layer": "item",
+      "tags": "torch,fire,light,火把,照明,flame"
+    },
+    {
+      "id": "anvil",
+      "path": "assets/objects/anvil.svg",
+      "layer": "object",
+      "tags": "anvil,forge,smith,铁砧,锻造,metal,crafting"
+    },
+    {
+      "id": "barrel",
+      "path": "assets/objects/barrel.svg",
+      "layer": "object",
+      "tags": "barrel,cask,container,木桶,酒桶,storage"
+    },
+    {
+      "id": "campfire",
+      "path": "assets/objects/campfire.svg",
+      "layer": "object",
+      "tags": "campfire,fire,camp,篝火,营火,warmth,cooking"
+    },
+    {
+      "id": "chest-open",
+      "path": "assets/objects/chest-open.svg",
+      "layer": "object",
+      "tags": "chest,open,treasure,宝箱,打开,loot,container"
+    },
+    {
+      "id": "chest",
+      "path": "assets/objects/chest.svg",
+      "layer": "object",
+      "tags": "chest,treasure,loot,prop,container"
+    },
+    {
+      "id": "potion",
+      "path": "assets/objects/potion.svg",
+      "layer": "object",
+      "tags": "potion,bottle,elixir,prop,magic,consumable"
+    },
+    {
+      "id": "sword",
+      "path": "assets/objects/sword.svg",
+      "layer": "object",
+      "tags": "sword,weapon,blade,prop,combat"
+    },
+    {
+      "id": "table",
+      "path": "assets/objects/table.svg",
+      "layer": "object",
+      "tags": "table,furniture,wooden,tavern,prop"
+    },
+    {
+      "id": "torch",
+      "path": "assets/objects/torch.svg",
+      "layer": "object",
+      "tags": "torch,wall,fire,light,prop,flame"
+    }
+  ]
+}

@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SVG Scene Asset Library</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: #0a0a0f;
+    color: #e0e0e0;
+    min-height: 100vh;
+    line-height: 1.5;
+  }
+  .container { max-width: 1400px; margin: 0 auto; padding: 0 24px; }
+
+  /* Header */
+  header {
+    padding: 48px 0 24px;
+    border-bottom: 1px solid #1a1a2e;
+    margin-bottom: 32px;
+  }
+  header h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    background: linear-gradient(135deg, #e0e0e0, #a78bfa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  header p { color: #888; margin-top: 4px; font-size: 0.95rem; }
+
+  /* Stats bar */
+  .stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 24px;
+    font-size: 0.85rem;
+  }
+  .stat { background: #12121a; padding: 8px 14px; border-radius: 6px; border: 1px solid #1a1a2e; }
+  .stat span { color: #a78bfa; font-weight: 600; }
+
+  /* Filter bar */
+  .filter-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
+    margin-bottom: 24px;
+  }
+  .tabs { display: flex; flex-wrap: wrap; gap: 6px; }
+  .tab {
+    background: #12121a;
+    border: 1px solid #1a1a2e;
+    color: #aaa;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    transition: all 0.2s;
+    white-space: nowrap;
+  }
+  .tab:hover { border-color: #a78bfa; color: #e0e0e0; }
+  .tab.active { background: #a78bfa; color: #0a0a0f; border-color: #a78bfa; font-weight: 600; }
+  .tab .count {
+    background: rgba(255,255,255,0.1);
+    padding: 1px 7px;
+    border-radius: 10px;
+    font-size: 0.75rem;
+    margin-left: 6px;
+  }
+  .tab.active .count { background: rgba(0,0,0,0.15); }
+
+  /* Search */
+  .search-wrap { flex: 1; min-width: 180px; }
+  .search-wrap input {
+    width: 100%;
+    background: #12121a;
+    border: 1px solid #1a1a2e;
+    color: #e0e0e0;
+    padding: 8px 14px;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+  .search-wrap input:focus { border-color: #a78bfa; }
+  .search-wrap input::placeholder { color: #555; }
+
+  /* Grid */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding-bottom: 40px;
+  }
+
+  /* Card */
+  .card {
+    background: #12121a;
+    border: 1px solid #1a1a2e;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: border-color 0.2s, transform 0.2s;
+    display: flex;
+    flex-direction: column;
+  }
+  .card:hover { border-color: #a78bfa; transform: translateY(-2px); }
+  .card .preview {
+    aspect-ratio: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    background: #0f0f18;
+    position: relative;
+    min-height: 140px;
+  }
+  .card .preview svg {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+  }
+  .card .preview .spinner {
+    width: 28px; height: 28px;
+    border: 3px solid #1a1a2e;
+    border-top-color: #a78bfa;
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+    position: absolute;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  .card .info { padding: 12px 14px 14px; flex: 1; display: flex; flex-direction: column; gap: 6px; }
+  .card .info .id-row { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+  .card .info .id { font-weight: 600; font-size: 0.9rem; word-break: break-all; }
+  .card .info .copy-btn {
+    background: none;
+    border: 1px solid #2a2a3e;
+    color: #888;
+    padding: 3px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.75rem;
+    transition: all 0.2s;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .card .info .copy-btn:hover { border-color: #a78bfa; color: #a78bfa; }
+  .card .info .copy-btn.copied { border-color: #33cc66; color: #33cc66; }
+  .card .info .layer-badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 0.72rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    width: fit-content;
+  }
+  .layer-character { background: #3a2a5a; color: #c4a0ff; }
+  .layer-creature { background: #2a4a2a; color: #80d080; }
+  .layer-object { background: #4a3a1a; color: #e0b060; }
+  .layer-item { background: #2a3a5a; color: #80b0ff; }
+  .layer-effect { background: #4a2a2a; color: #ff8080; }
+  .layer-background { background: #1a2a3a; color: #80d0ff; }
+  .card .info .tags {
+    font-size: 0.78rem;
+    color: #666;
+    line-height: 1.4;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  /* Footer */
+  footer {
+    border-top: 1px solid #1a1a2e;
+    padding: 24px 0;
+    text-align: center;
+    font-size: 0.85rem;
+    color: #555;
+  }
+  footer a { color: #888; text-decoration: none; }
+  footer a:hover { color: #a78bfa; }
+  footer .sep { margin: 0 10px; color: #2a2a3e; }
+
+  /* Empty state */
+  .empty { text-align: center; padding: 60px 20px; color: #555; font-size: 1rem; }
+
+  @media (max-width: 900px) {
+    .grid { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 14px; }
+    header h1 { font-size: 1.5rem; }
+  }
+  @media (max-width: 600px) {
+    .grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+    .container { padding: 0 12px; }
+    header { padding: 28px 0 16px; }
+    header h1 { font-size: 1.2rem; }
+    .filter-bar { flex-direction: column; align-items: stretch; }
+    .tabs { overflow-x: auto; flex-wrap: nowrap; padding-bottom: 4px; }
+    .stats { gap: 6px; }
+    .stat { padding: 5px 10px; font-size: 0.78rem; }
+    .card .preview { min-height: 100px; padding: 10px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <header>
+    <h1>SVG Scene Asset Library</h1>
+    <p>Browsable catalog of all scene engine SVG assets</p>
+  </header>
+
+  <div class="stats" id="stats"></div>
+
+  <div class="filter-bar">
+    <div class="tabs" id="tabs"></div>
+    <div class="search-wrap">
+      <input type="text" id="search" placeholder="Search by ID or tag..." autocomplete="off">
+    </div>
+  </div>
+
+  <div class="grid" id="grid"></div>
+</div>
+
+<footer>
+  <a href="https://github.com/anomalyco/svg-asset-library">GitHub</a>
+  <span class="sep">·</span>
+  <a href="docs/asset-spec.md">Asset Spec</a>
+  <span class="sep">·</span>
+  Used by SVG Scene Engine
+</footer>
+
+<script>
+const LAYERS = ['All', 'Characters', 'Creatures', 'Objects', 'Items', 'Effects', 'Backgrounds'];
+const LAYER_MAP = {
+  'Characters': 'character',
+  'Creatures': 'creature',
+  'Objects': 'object',
+  'Items': 'item',
+  'Effects': 'effect',
+  'Backgrounds': 'background'
+};
+
+let assets = [];
+let activeTab = 'All';
+
+async function init() {
+  const res = await fetch('manifest.json');
+  const data = await res.json();
+  assets = data.assets;
+  renderTabs();
+  renderStats();
+  renderGrid();
+  bindEvents();
+}
+
+function renderTabs() {
+  const container = document.getElementById('tabs');
+  container.innerHTML = LAYERS.map(label => {
+    const count = label === 'All' ? assets.length : assets.filter(a => a.layer === LAYER_MAP[label]).length;
+    const active = label === activeTab ? ' active' : '';
+    return `<button class="tab${active}" data-layer="${label}">${label} <span class="count">${count}</span></button>`;
+  }).join('');
+}
+
+function renderStats() {
+  const counts = { character: 0, creature: 0, object: 0, item: 0, effect: 0, background: 0 };
+  assets.forEach(a => { if (counts[a.layer] !== undefined) counts[a.layer]++; });
+  document.getElementById('stats').innerHTML = Object.entries(counts)
+    .map(([layer, count]) => `<div class="stat"><span>${count}</span> ${layer}s</div>`).join('')
+    + `<div class="stat"><span>${assets.length}</span> total</div>`;
+}
+
+function getFiltered() {
+  const q = document.getElementById('search').value.toLowerCase().trim();
+  let list = assets;
+  if (activeTab !== 'All') {
+    list = list.filter(a => a.layer === LAYER_MAP[activeTab]);
+  }
+  if (q) {
+    list = list.filter(a => {
+      const tags = (a.tags || '').toLowerCase();
+      const id = a.id.toLowerCase();
+      return id.includes(q) || tags.includes(q);
+    });
+  }
+  return list;
+}
+
+function renderGrid() {
+  const list = getFiltered();
+  const container = document.getElementById('grid');
+
+  if (list.length === 0) {
+    container.innerHTML = '<div class="empty">No assets match your filter.</div>';
+    return;
+  }
+
+  container.innerHTML = list.map(a => {
+    const tags = a.tags || '';
+    return `
+      <div class="card" data-id="${a.id}">
+        <div class="preview" data-path="${a.path}"><div class="spinner"></div></div>
+        <div class="info">
+          <div class="id-row">
+            <div class="id">${a.id}</div>
+            <button class="copy-btn" data-id="${a.id}">Copy</button>
+          </div>
+          <div class="layer-badge layer-${a.layer}">${a.layer}</div>
+          <div class="tags" title="${tags.replace(/,/g, ', ')}">${tags.replace(/,/g, ', ')}</div>
+        </div>
+      </div>`;
+  }).join('');
+
+  list.forEach(a => {
+    const preview = container.querySelector(`.card[data-id="${a.id}"] .preview`);
+    if (!preview) return;
+    fetch(a.path)
+      .then(r => r.text())
+      .then(svg => {
+        preview.innerHTML = svg;
+        const svgEl = preview.querySelector('svg');
+        if (svgEl) svgEl.removeAttribute('width');
+        if (svgEl) svgEl.removeAttribute('height');
+      })
+      .catch(() => {
+        preview.innerHTML = '<span style="color:#555;font-size:0.85rem">Failed to load</span>';
+      });
+  });
+}
+
+function bindEvents() {
+  document.getElementById('tabs').addEventListener('click', e => {
+    const tab = e.target.closest('.tab');
+    if (!tab) return;
+    activeTab = tab.dataset.layer;
+    document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+    tab.classList.add('active');
+    renderGrid();
+  });
+
+  document.getElementById('search').addEventListener('input', () => renderGrid());
+
+  document.getElementById('grid').addEventListener('click', e => {
+    const btn = e.target.closest('.copy-btn');
+    if (!btn) return;
+    navigator.clipboard.writeText(btn.dataset.id).then(() => {
+      btn.textContent = 'Copied!';
+      btn.classList.add('copied');
+      setTimeout(() => { btn.textContent = 'Copy'; btn.classList.remove('copied'); }, 1500);
+    });
+  });
+}
+
+init();
+</script>
+</body>
+</html>
