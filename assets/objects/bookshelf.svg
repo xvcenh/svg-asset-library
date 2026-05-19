@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" data-asset-id="object-bookshelf" data-layer="object" data-origin="center-bottom" data-tags="bookshelf,furniture,storage,书架,家具">
+  <rect x="12" y="8" width="56" height="66" rx="2" fill="#6b4a20"/>
+  <rect x="16" y="12" width="48" height="14" fill="#4a3010"/>
+  <rect x="16" y="30" width="48" height="14" fill="#4a3010"/>
+  <rect x="16" y="48" width="48" height="14" fill="#4a3010"/>
+  <rect x="18" y="13" width="6" height="12" fill="#8a3333"/>
+  <rect x="25" y="14" width="5" height="11" fill="#a78bfa"/>
+  <rect x="32" y="13" width="6" height="12" fill="#2a6b2a"/>
+  <rect x="18" y="31" width="5" height="12" fill="#d4a856"/>
+  <rect x="25" y="32" width="6" height="11" fill="#8a3333"/>
+  <rect x="33" y="31" width="5" height="12" fill="#4488aa"/>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 160" data-asset-id="character-blacksmith" data-layer="character" data-tags="blacksmith,smith,铁匠,工匠" data-origin="center-bottom">
+  <!-- Legs -->
+  <rect x="44" y="105" width="14" height="35" rx="3" fill="#4a4a3a"/>
+  <rect x="62" y="105" width="14" height="35" rx="3" fill="#4a4a3a"/>
+  <!-- Boots -->
+  <rect x="42" y="132" width="18" height="12" rx="3" fill="#3a3a2a"/>
+  <rect x="60" y="132" width="18" height="12" rx="3" fill="#3a3a2a"/>
+  <!-- Body -->
+  <rect x="40" y="55" width="40" height="50" rx="5" fill="#5a4a3a"/>
+  <!-- Apron -->
+  <rect x="42" y="60" width="36" height="45" rx="3" fill="#4a3a2a"/>
+  <rect x="48" y="65" width="10" height="8" rx="2" fill="#5a5a5a"/>
+  <!-- Belt -->
+  <rect x="40" y="90" width="40" height="7" rx="2" fill="#3a3a2a"/>
+  <!-- Arms (muscular) -->
+  <rect x="26" y="58" width="14" height="42" rx="5" fill="#d4a843"/>
+  <rect x="80" y="58" width="14" height="42" rx="5" fill="#d4a843"/>
+  <!-- Hammer -->
+  <rect x="86" y="45" width="4" height="40" rx="1" fill="#6a5a3a"/>
+  <rect x="82" y="40" width="12" height="10" rx="2" fill="#8a8a9a"/>
+  <!-- Head -->
+  <ellipse cx="60" cy="35" rx="20" ry="22" fill="#d4a843"/>
+  <!-- Beard -->
+  <path d="M45 38 Q50 55 60 60 Q70 55 75 38 L70 40 Q65 52 60 55 Q55 52 50 40 Z" fill="#5a4a3a"/>
+  <!-- Bandana -->
+  <rect x="40" y="18" width="40" height="8" rx="3" fill="#8a3a2a"/>
+  <!-- Eyes -->
+  <ellipse cx="53" cy="32" rx="3" ry="3" fill="#2a2a2a"/>
+  <ellipse cx="67" cy="32" rx="3" ry="3" fill="#2a2a2a"/>
+  <!-- Soot marks -->
+  <circle cx="48" cy="42" r="2" fill="#4a4a4a" opacity="0.3"/>
+  <circle cx="72" cy="40" r="2.5" fill="#4a4a4a" opacity="0.3"/>
+</svg>

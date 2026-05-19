@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" data-asset-id="item-whip" data-layer="item" data-origin="center-bottom" data-tags="whip,weapon,chain,鞭子,武器">
+  <rect x="10" y="8" width="8" height="16" rx="3" fill="#6b4a20"/>
+  <path d="M14 24 Q30 30 40 42 Q46 50 52 52" fill="none" stroke="#8a8a9a" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="52" cy="52" r="3" fill="#8a8a9a"/>
+</svg>

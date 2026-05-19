@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 160" data-asset-id="character-king" data-layer="character" data-tags="king,monarch,国王,君主" data-origin="center-bottom">
+  <!-- Legs -->
+  <rect x="44" y="105" width="14" height="35" rx="3" fill="#4a4a5a"/>
+  <rect x="62" y="105" width="14" height="35" rx="3" fill="#4a4a5a"/>
+  <!-- Boots -->
+  <rect x="42" y="132" width="18" height="12" rx="3" fill="#5a3a2a"/>
+  <rect x="60" y="132" width="18" height="12" rx="3" fill="#5a3a2a"/>
+  <!-- Body (royal robe) -->
+  <rect x="40" y="55" width="40" height="50" rx="5" fill="#6a2a4a"/>
+  <rect x="43" y="58" width="34" height="44" rx="3" fill="#7a3a5a"/>
+  <!-- Fur collar -->
+  <ellipse cx="60" cy="58" rx="22" ry="6" fill="#8a7a5a"/>
+  <!-- Belt -->
+  <rect x="40" y="90" width="40" height="6" rx="2" fill="#d4aa43"/>
+  <!-- Arms -->
+  <rect x="28" y="60" width="12" height="40" rx="4" fill="#6a2a4a"/>
+  <rect x="80" y="60" width="12" height="40" rx="4" fill="#6a2a4a"/>
+  <!-- Scepter -->
+  <rect x="85" y="30" width="4" height="70" rx="1" fill="#d4aa43"/>
+  <circle cx="87" cy="27" r="6" fill="#d4aa43"/>
+  <circle cx="87" cy="27" r="3" fill="#aa3a3a"/>
+  <!-- Cape -->
+  <path d="M35 55 L30 105 L90 105 L85 55 Z" fill="#5a1a3a" opacity="0.5"/>
+  <!-- Head -->
+  <ellipse cx="60" cy="35" rx="20" ry="22" fill="#d4a843"/>
+  <!-- Crown -->
+  <rect x="44" y="12" width="32" height="10" rx="2" fill="#d4aa43"/>
+  <polygon points="47,12 50,2 53,12" fill="#d4aa43"/>
+  <polygon points="54,12 57,0 60,12" fill="#d4aa43"/>
+  <polygon points="60,12 63,0 66,12" fill="#d4aa43"/>
+  <polygon points="67,12 70,2 73,12" fill="#d4aa43"/>
+  <circle cx="50" cy="5" r="2" fill="#aa3a3a"/>
+  <circle cx="57" cy="3" r="2.5" fill="#3a8aaa"/>
+  <circle cx="63" cy="3" r="2.5" fill="#3aaa3a"/>
+  <circle cx="70" cy="5" r="2" fill="#aa3a3a"/>
+  <!-- Beard -->
+  <path d="M48 40 Q52 55 60 58 Q68 55 72 40 L68 42 Q64 52 60 54 Q56 52 52 42 Z" fill="#6a5a3a"/>
+  <!-- Eyes -->
+  <ellipse cx="53" cy="32" rx="3" ry="3" fill="#2a2a2a"/>
+  <ellipse cx="67" cy="32" rx="3" ry="3" fill="#2a2a2a"/>
+</svg>

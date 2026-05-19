@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" data-asset-id="ui-tooltip-bg" data-layer="ui" data-tags="tooltip,background,info,提示框,背景">
+  <path d="M8 8 L72 8 Q76 8 76 12 L76 56 Q76 60 72 60 L44 60 L36 72 L32 60 L8 60 Q4 60 4 56 L4 12 Q4 8 8 8 Z" fill="#2a2a3a" opacity="0.95"/>
+  <path d="M8 8 L72 8 Q76 8 76 12 L76 56 Q76 60 72 60 L44 60 L36 72 L32 60 L8 60 Q4 60 4 56 L4 12 Q4 8 8 8 Z" fill="none" stroke="#a78bfa" stroke-width="1.5"/>
+</svg>

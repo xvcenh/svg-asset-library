@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" data-asset-id="item-map" data-layer="item" data-origin="center-bottom" data-tags="map,scroll,quest,地图,卷轴">
+  <rect x="10" y="10" width="40" height="44" rx="2" fill="#d4a856"/>
+  <circle cx="8" cy="10" r="4" fill="#6b4a20"/>
+  <circle cx="8" cy="54" r="4" fill="#6b4a20"/>
+  <circle cx="52" cy="10" r="4" fill="#6b4a20"/>
+  <circle cx="52" cy="54" r="4" fill="#6b4a20"/>
+  <path d="M18 20 L26 28 L34 24 L42 32" stroke="#8a3333" stroke-width="1.5" fill="none"/>
+  <circle cx="26" cy="28" r="2" fill="#8a3333"/>
+</svg>

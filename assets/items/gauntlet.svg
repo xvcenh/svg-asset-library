@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" data-asset-id="item-gauntlet" data-layer="item" data-origin="center-bottom" data-tags="gauntlet,armor,glove,护手,手套">
+  <path d="M18 54 L14 24 L18 20 L22 22 L22 16 L26 14 L28 20 L30 14 L32 12 L34 18 L36 14 L38 14 L40 20 L42 30 L38 54 Z" fill="#8a8a9a"/>
+  <line x1="22" y1="22" x2="22" y2="40" stroke="#666" stroke-width="0.5"/>
+  <line x1="34" y1="18" x2="34" y2="40" stroke="#666" stroke-width="0.5"/>
+  <rect x="16" y="40" width="24" height="14" rx="2" fill="#666"/>
+</svg>

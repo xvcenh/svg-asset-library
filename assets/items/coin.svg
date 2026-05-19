@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" data-asset-id="item-coin" data-layer="item" data-origin="center-bottom" data-tags="coin,gold,currency,金币,货币">
+  <circle cx="30" cy="30" r="20" fill="#ffd700"/>
+  <circle cx="30" cy="30" r="16" fill="none" stroke="#b8960a" stroke-width="1.5"/>
+  <text x="30" y="36" text-anchor="middle" font-size="18" font-weight="bold" fill="#b8960a">$</text>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" data-asset-id="fx-lightning" data-layer="effect" data-tags="lightning,闪电,thunder,electric,storm" data-origin="center-center">
+  <polygon points="100,10 110,70 130,70 95,120 110,120 80,190 90,125 70,125 105,75 85,75" fill="#88ccff" opacity="0.4"/>
+  <polygon points="100,20 108,70 125,70 95,115 108,115 82,180 90,120 72,120 103,78 87,78" fill="#ffffff" opacity="0.3"/>
+  <circle cx="100" cy="100" r="60" fill="#88ccff" opacity="0.05"/>
+  <circle cx="100" cy="100" r="40" fill="#aaddff" opacity="0.08"/>
+</svg>

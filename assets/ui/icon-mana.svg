@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" data-asset-id="ui-icon-mana" data-layer="ui" data-tags="icon,mana,magic,图标,法力">
+  <path d="M40 8 Q54 32 66 44 Q66 66 40 66 Q14 66 14 44 Q26 32 40 8 Z" fill="#4488cc"/>
+  <path d="M40 16 Q50 32 58 42 Q58 58 40 58" fill="#66aaee" opacity="0.4"/>
+  <circle cx="34" cy="40" r="4" fill="#88ccff" opacity="0.5"/>
+</svg>

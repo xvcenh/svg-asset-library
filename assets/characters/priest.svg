@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 160" data-asset-id="character-priest" data-layer="character" data-tags="priest,cleric,牧师,神父" data-origin="center-bottom">
+  <!-- Robe -->
+  <path d="M36 100 L30 148 L90 148 L84 100 Z" fill="#e0e0e0"/>
+  <path d="M39 100 L34 145 L86 145 L81 100 Z" fill="#f0f0f0"/>
+  <!-- Body -->
+  <rect x="40" y="55" width="40" height="50" rx="5" fill="#e0e0e0"/>
+  <rect x="43" y="58" width="34" height="44" rx="3" fill="#f0f0f0"/>
+  <!-- Stole -->
+  <rect x="55" y="55" width="10" height="50" rx="2" fill="#d4aa43"/>
+  <rect x="52" y="95" width="16" height="8" rx="2" fill="#d4aa43"/>
+  <!-- Cross on stole -->
+  <rect x="58" y="70" width="4" height="12" rx="1" fill="#aa3a3a"/>
+  <rect x="55" y="74" width="10" height="4" rx="1" fill="#aa3a3a"/>
+  <!-- Belt -->
+  <rect x="40" y="90" width="40" height="5" rx="2" fill="#d4aa43"/>
+  <!-- Arms -->
+  <rect x="28" y="60" width="12" height="38" rx="4" fill="#e0e0e0"/>
+  <rect x="80" y="60" width="12" height="38" rx="4" fill="#e0e0e0"/>
+  <!-- Holy book -->
+  <rect x="82" y="75" width="14" height="18" rx="2" fill="#6a3a2a"/>
+  <rect x="84" y="77" width="10" height="14" rx="1" fill="#c0a860"/>
+  <rect x="87" y="80" width="4" height="8" rx="1" fill="#d4aa43"/>
+  <!-- Head -->
+  <ellipse cx="60" cy="35" rx="20" ry="22" fill="#d4a843"/>
+  <!-- Tonsure/hair -->
+  <path d="M42 28 Q45 15 60 12 Q75 15 78 28 L80 32 Q72 26 48 26 L42 28 Z" fill="#8a7a5a"/>
+  <!-- Collar -->
+  <rect x="48" y="50" width="24" height="8" rx="2" fill="#f0f0f0"/>
+  <!-- Eyes -->
+  <ellipse cx="53" cy="32" rx="3" ry="3" fill="#4a4a6a"/>
+  <ellipse cx="67" cy="32" rx="3" ry="3" fill="#4a4a6a"/>
+  <!-- Gentle smile -->
+  <path d="M55 42 Q60 45 65 42" stroke="#8a6a4a" stroke-width="1" fill="none"/>
+</svg>

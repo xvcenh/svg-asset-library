@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" data-asset-id="creature-troll" data-layer="creature" data-origin="center-bottom" data-tags="troll,巨魔,creature,monster,large">
+  <rect x="50" y="70" width="60" height="70" rx="10" fill="#4a6a4a"/>
+  <ellipse cx="80" cy="45" rx="28" ry="25" fill="#5a7a5a"/>
+  <polygon points="60,30 50,10 68,28" fill="#5a7a5a"/>
+  <polygon points="100,30 110,10 92,28" fill="#5a7a5a"/>
+  <circle cx="68" cy="42" r="8" fill="#ffff44"/>
+  <circle cx="92" cy="42" r="8" fill="#ffff44"/>
+  <circle cx="68" cy="42" r="4" fill="#111"/>
+  <circle cx="92" cy="42" r="4" fill="#111"/>
+  <path d="M65,58 L80,65 L95,58" stroke="#2a4a2a" stroke-width="3" fill="none"/>
+  <polygon points="70,60 68,68 75,65" fill="#ffffcc"/>
+  <polygon points="90,60 92,68 85,65" fill="#ffffcc"/>
+  <rect x="45" y="130" width="20" height="18" rx="4" fill="#3a5a3a"/>
+  <rect x="95" y="130" width="20" height="18" rx="4" fill="#3a5a3a"/>
+  <line x1="45" y1="85" x2="25" y2="110" stroke="#4a6a4a" stroke-width="14" stroke-linecap="round"/>
+  <line x1="115" y1="85" x2="135" y2="110" stroke="#4a6a4a" stroke-width="14" stroke-linecap="round"/>
+</svg>

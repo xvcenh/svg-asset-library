@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" data-asset-id="object-bridge" data-layer="object" data-origin="center-bottom" data-tags="bridge,water,structure,桥,建筑">
+  <path d="M4 50 Q40 30 76 50" stroke="#6b4a20" stroke-width="6" fill="none"/>
+  <rect x="4" y="46" width="72" height="8" rx="2" fill="#8a6b40"/>
+  <rect x="8" y="54" width="4" height="18" fill="#6b4a20"/>
+  <rect x="38" y="46" width="4" height="18" fill="#6b4a20"/>
+  <rect x="68" y="54" width="4" height="18" fill="#6b4a20"/>
+  <path d="M0 72 Q20 66 40 72 Q60 78 80 72" fill="#1a3a5a" opacity="0.5"/>
+</svg>

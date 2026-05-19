@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 160" data-asset-id="character-knight-heavy" data-layer="character" data-tags="knight,heavy armor,骑士,重甲骑士" data-origin="center-bottom">
+  <!-- Legs -->
+  <rect x="44" y="105" width="14" height="35" rx="3" fill="#8a8a9a"/>
+  <rect x="62" y="105" width="14" height="35" rx="3" fill="#8a8a9a"/>
+  <!-- Greaves -->
+  <rect x="42" y="120" width="18" height="22" rx="3" fill="#7a7a8a"/>
+  <rect x="60" y="120" width="18" height="22" rx="3" fill="#7a7a8a"/>
+  <!-- Boots -->
+  <rect x="42" y="135" width="18" height="10" rx="3" fill="#6a6a7a"/>
+  <rect x="60" y="135" width="18" height="10" rx="3" fill="#6a6a7a"/>
+  <!-- Body (plate armor) -->
+  <rect x="40" y="55" width="40" height="50" rx="5" fill="#8a8a9a"/>
+  <rect x="45" y="58" width="30" height="44" rx="3" fill="#9a9aaa"/>
+  <!-- Belt -->
+  <rect x="40" y="92" width="40" height="8" rx="2" fill="#5a5a6a"/>
+  <!-- Left Arm -->
+  <rect x="28" y="60" width="12" height="40" rx="4" fill="#8a8a9a"/>
+  <!-- Right Arm -->
+  <rect x="80" y="60" width="12" height="40" rx="4" fill="#8a8a9a"/>
+  <!-- Pauldrons -->
+  <rect x="26" y="55" width="16" height="10" rx="4" fill="#7a7a8a"/>
+  <rect x="78" y="55" width="16" height="10" rx="4" fill="#7a7a8a"/>
+  <!-- Shield (left) -->
+  <rect x="16" y="65" width="18" height="28" rx="4" fill="#6a6a7a"/>
+  <rect x="20" y="69" width="10" height="20" rx="2" fill="#8a8a9a"/>
+  <!-- Sword (right) -->
+  <rect x="92" y="40" width="4" height="55" rx="1" fill="#aaaabc"/>
+  <rect x="88" y="55" width="12" height="4" rx="1" fill="#8a8a9a"/>
+  <rect x="91" y="93" width="6" height="10" rx="2" fill="#5a4a3a"/>
+  <!-- Head -->
+  <ellipse cx="60" cy="35" rx="20" ry="22" fill="#8a8a9a"/>
+  <!-- Visor -->
+  <rect x="48" y="28" width="24" height="14" rx="3" fill="#6a6a7a"/>
+  <rect x="52" y="31" width="6" height="4" rx="1" fill="#2a2a3a"/>
+  <rect x="62" y="31" width="6" height="4" rx="1" fill="#2a2a3a"/>
+  <!-- Plume -->
+  <rect x="57" y="8" width="6" height="15" rx="3" fill="#8a2a2a"/>
+</svg>

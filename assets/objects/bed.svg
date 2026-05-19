@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" data-asset-id="object-bed" data-layer="object" data-origin="center-bottom" data-tags="bed,furniture,sleep,床,家具">
+  <rect x="8" y="52" width="64" height="16" rx="3" fill="#6b4a20"/>
+  <rect x="10" y="36" width="60" height="18" rx="2" fill="#d4a856"/>
+  <rect x="8" y="24" width="20" height="30" rx="3" fill="#8a6b40"/>
+  <ellipse cx="18" cy="40" rx="8" ry="4" fill="#e8d0a0"/>
+  <rect x="60" y="52" width="12" height="16" rx="2" fill="#8a6b40"/>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" data-asset-id="creature-ghost" data-layer="creature" data-origin="center-bottom" data-tags="ghost,幽灵,creature,undead,ethereal">
+  <path d="M80,20 L110,50 L110,120 L100,110 L90,120 L80,110 L70,120 L60,110 L50,120 L50,50 Z" fill="#ccccdd" opacity="0.8"/>
+  <path d="M80,25 L105,50 L105,115 L95,105 L85,115 L80,105 L75,115 L65,105 L55,115 L55,50 Z" fill="#ddddee" opacity="0.6"/>
+  <ellipse cx="68" cy="55" r="10" fill="#1122aa"/>
+  <ellipse cx="92" cy="55" r="10" fill="#1122aa"/>
+  <circle cx="68" cy="55" r="5" fill="#6666ff"/>
+  <circle cx="92" cy="55" r="5" fill="#6666ff"/>
+  <circle cx="68" cy="52" r="2" fill="#ffffff"/>
+  <circle cx="92" cy="52" r="2" fill="#ffffff"/>
+  <ellipse cx="80" cy="78" rx="12" ry="8" fill="#8888aa" opacity="0.5"/>
+</svg>

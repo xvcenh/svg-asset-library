@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 160" data-asset-id="character-witch" data-layer="character" data-tags="witch,sorceress,女巫,巫婆" data-origin="center-bottom">
+  <!-- Robe -->
+  <path d="M36 100 L30 148 L90 148 L84 100 Z" fill="#3a2a3a"/>
+  <path d="M39 100 L34 145 L86 145 L81 100 Z" fill="#4a3a4a"/>
+  <!-- Body -->
+  <rect x="40" y="55" width="40" height="50" rx="5" fill="#3a2a3a"/>
+  <rect x="43" y="58" width="34" height="44" rx="3" fill="#4a3a4a"/>
+  <!-- Corset -->
+  <path d="M48 65 L52 58 L68 58 L72 65 L68 95 L52 95 Z" fill="#5a3a5a"/>
+  <line x1="56" y1="60" x2="56" y2="90" stroke="#8a5a8a" stroke-width="1"/>
+  <line x1="64" y1="60" x2="64" y2="90" stroke="#8a5a8a" stroke-width="1"/>
+  <!-- Belt -->
+  <rect x="40" y="90" width="40" height="5" rx="2" fill="#3a2a2a"/>
+  <!-- Arms -->
+  <rect x="28" y="60" width="12" height="38" rx="4" fill="#3a2a3a"/>
+  <rect x="80" y="60" width="12" height="38" rx="4" fill="#3a2a3a"/>
+  <!-- Wand -->
+  <rect x="85" y="45" width="3" height="35" rx="1" fill="#4a3a2a"/>
+  <circle cx="86.5" cy="42" r="4" fill="#8a3aaa"/>
+  <circle cx="86.5" cy="42" r="2" fill="#ba6ada"/>
+  <!-- Potion bottle -->
+  <rect x="24" y="85" width="8" height="12" rx="3" fill="#3a8a3a" opacity="0.7"/>
+  <rect x="26" y="82" width="4" height="5" rx="1" fill="#5a5a5a"/>
+  <!-- Head -->
+  <ellipse cx="60" cy="35" rx="20" ry="22" fill="#d4a843"/>
+  <!-- Hair -->
+  <path d="M38 30 Q42 10 60 8 Q78 10 82 30 L85 48 Q75 38 45 38 L38 30 Z" fill="#2a2a2a"/>
+  <path d="M38 32 L30 55 Q34 58 38 48 Z" fill="#2a2a2a"/>
+  <path d="M82 32 L90 55 Q86 58 82 48 Z" fill="#2a2a2a"/>
+  <!-- Witch hat -->
+  <path d="M42 22 L60 -5 L78 22 Z" fill="#2a2a2a"/>
+  <rect x="36" y="20" width="48" height="8" rx="3" fill="#2a2a2a"/>
+  <rect x="38" y="20" width="44" height="6" rx="2" fill="#3a3a3a"/>
+  <!-- Hat buckle -->
+  <rect x="54" y="19" width="12" height="8" rx="2" fill="#8a6a3a"/>
+  <!-- Eyes -->
+  <ellipse cx="53" cy="32" rx="3" ry="3" fill="#5aaa5a"/>
+  <ellipse cx="67" cy="32" rx="3" ry="3" fill="#5aaa5a"/>
+</svg>

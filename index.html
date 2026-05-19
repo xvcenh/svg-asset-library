@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>SVG Scene Asset Library</title>
+<title>SVG Scene Asset Library — 图鉴</title>
 <style>
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
   body {
@@ -15,7 +15,6 @@
   }
   .container { max-width: 1400px; margin: 0 auto; padding: 0 24px; }
 
-  /* Header */
   header {
     padding: 48px 0 24px;
     border-bottom: 1px solid #1a1a2e;
@@ -31,7 +30,6 @@
   }
   header p { color: #888; margin-top: 4px; font-size: 0.95rem; }
 
-  /* Stats bar */
   .stats {
     display: flex;
     flex-wrap: wrap;
@@ -42,7 +40,6 @@
   .stat { background: #12121a; padding: 8px 14px; border-radius: 6px; border: 1px solid #1a1a2e; }
   .stat span { color: #a78bfa; font-weight: 600; }
 
-  /* Filter bar */
   .filter-bar {
     display: flex;
     flex-wrap: wrap;
@@ -73,7 +70,6 @@
   }
   .tab.active .count { background: rgba(0,0,0,0.15); }
 
-  /* Search */
   .search-wrap { flex: 1; min-width: 180px; }
   .search-wrap input {
     width: 100%;
@@ -89,7 +85,6 @@
   .search-wrap input:focus { border-color: #a78bfa; }
   .search-wrap input::placeholder { color: #555; }
 
-  /* Grid */
   .grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -97,7 +92,6 @@
     padding-bottom: 40px;
   }
 
-  /* Card */
   .card {
     background: #12121a;
     border: 1px solid #1a1a2e;
@@ -114,9 +108,8 @@
     align-items: center;
     justify-content: center;
     padding: 16px;
-    background: #0f0f18;
-    position: relative;
-    min-height: 140px;
+    background: #0e0e16;
+    overflow: hidden;
   }
   .card .preview svg {
     max-width: 100%;
@@ -124,95 +117,109 @@
     width: auto;
     height: auto;
   }
-  .card .preview .spinner {
-    width: 28px; height: 28px;
-    border: 3px solid #1a1a2e;
-    border-top-color: #a78bfa;
-    border-radius: 50%;
-    animation: spin 0.8s linear infinite;
-    position: absolute;
+  .card .info {
+    padding: 12px;
+    border-top: 1px solid #1a1a2e;
   }
-  @keyframes spin { to { transform: rotate(360deg); } }
-  .card .info { padding: 12px 14px 14px; flex: 1; display: flex; flex-direction: column; gap: 6px; }
-  .card .info .id-row { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
-  .card .info .id { font-weight: 600; font-size: 0.9rem; word-break: break-all; }
-  .card .info .copy-btn {
-    background: none;
-    border: 1px solid #2a2a3e;
-    color: #888;
-    padding: 3px 10px;
-    border-radius: 4px;
-    cursor: pointer;
+  .card .info .name {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #e0e0e0;
+    margin-bottom: 4px;
+    word-break: break-all;
+  }
+  .card .info .meta {
     font-size: 0.75rem;
-    transition: all 0.2s;
-    white-space: nowrap;
-    flex-shrink: 0;
+    color: #666;
   }
-  .card .info .copy-btn:hover { border-color: #a78bfa; color: #a78bfa; }
-  .card .info .copy-btn.copied { border-color: #33cc66; color: #33cc66; }
-  .card .info .layer-badge {
-    display: inline-block;
+  .card .info .tags {
+    margin-top: 6px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+  }
+  .card .info .tag {
+    background: #1a1a2e;
+    color: #888;
     padding: 2px 8px;
     border-radius: 4px;
-    font-size: 0.72rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.03em;
-    width: fit-content;
-  }
-  .layer-character { background: #3a2a5a; color: #c4a0ff; }
-  .layer-creature { background: #2a4a2a; color: #80d080; }
-  .layer-object { background: #4a3a1a; color: #e0b060; }
-  .layer-item { background: #2a3a5a; color: #80b0ff; }
-  .layer-effect { background: #4a2a2a; color: #ff8080; }
-  .layer-background { background: #1a2a3a; color: #80d0ff; }
-  .card .info .tags {
-    font-size: 0.78rem;
-    color: #666;
-    line-height: 1.4;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+    font-size: 0.7rem;
   }
 
-  /* Footer */
-  footer {
-    border-top: 1px solid #1a1a2e;
-    padding: 24px 0;
+  .empty {
+    grid-column: 1 / -1;
     text-align: center;
-    font-size: 0.85rem;
+    padding: 60px 20px;
     color: #555;
+    font-size: 0.95rem;
   }
-  footer a { color: #888; text-decoration: none; }
-  footer a:hover { color: #a78bfa; }
-  footer .sep { margin: 0 10px; color: #2a2a3e; }
 
-  /* Empty state */
-  .empty { text-align: center; padding: 60px 20px; color: #555; font-size: 1rem; }
+  footer {
+    text-align: center;
+    padding: 24px;
+    color: #444;
+    font-size: 0.8rem;
+    border-top: 1px solid #1a1a2e;
+  }
+  footer a { color: #a78bfa; text-decoration: none; }
+  footer a:hover { text-decoration: underline; }
 
-  @media (max-width: 900px) {
-    .grid { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 14px; }
-    header h1 { font-size: 1.5rem; }
+  .spec-section {
+    margin-top: 48px;
+    padding: 32px;
+    background: #12121a;
+    border: 1px solid #1a1a2e;
+    border-radius: 10px;
+    margin-bottom: 40px;
   }
-  @media (max-width: 600px) {
-    .grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
-    .container { padding: 0 12px; }
-    header { padding: 28px 0 16px; }
-    header h1 { font-size: 1.2rem; }
-    .filter-bar { flex-direction: column; align-items: stretch; }
-    .tabs { overflow-x: auto; flex-wrap: nowrap; padding-bottom: 4px; }
-    .stats { gap: 6px; }
-    .stat { padding: 5px 10px; font-size: 0.78rem; }
-    .card .preview { min-height: 100px; padding: 10px; }
+  .spec-section h2 {
+    font-size: 1.3rem;
+    color: #a78bfa;
+    margin-bottom: 16px;
   }
+  .spec-section h3 {
+    font-size: 1rem;
+    color: #e0e0e0;
+    margin: 16px 0 8px;
+  }
+  .spec-section pre {
+    background: #0a0a0f;
+    padding: 12px 16px;
+    border-radius: 6px;
+    overflow-x: auto;
+    font-size: 0.8rem;
+    color: #aaa;
+    border: 1px solid #1a1a2e;
+    margin: 8px 0;
+  }
+  .spec-section table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 8px 0;
+    font-size: 0.85rem;
+  }
+  .spec-section th, .spec-section td {
+    padding: 8px 12px;
+    text-align: left;
+    border-bottom: 1px solid #1a1a2e;
+  }
+  .spec-section th { color: #a78bfa; font-weight: 600; }
+  .spec-section code {
+    background: #1a1a2e;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-size: 0.8rem;
+    color: #ccc;
+  }
+  .spec-section ul { padding-left: 20px; margin: 8px 0; }
+  .spec-section li { margin: 4px 0; color: #aaa; }
 </style>
 </head>
 <body>
-
 <div class="container">
   <header>
-    <h1>SVG Scene Asset Library</h1>
-    <p>Browsable catalog of all scene engine SVG assets</p>
+    <h1>SVG Scene Asset Library — 图鉴</h1>
+    <p>Categorized SVG assets for AI scene composition engine. Browse, search, and integrate.</p>
   </header>
 
   <div class="stats" id="stats"></div>
@@ -220,143 +227,145 @@
   <div class="filter-bar">
     <div class="tabs" id="tabs"></div>
     <div class="search-wrap">
-      <input type="text" id="search" placeholder="Search by ID or tag..." autocomplete="off">
+      <input type="text" id="search" placeholder="Search assets (name, tags, 中文)...">
     </div>
   </div>
 
   <div class="grid" id="grid"></div>
+
+  <div class="spec-section">
+    <h2>Asset Specification (编写规范)</h2>
+
+    <h3>File Naming</h3>
+    <pre>{category}/{id}.svg</pre>
+    <ul>
+      <li><code>characters/warrior.svg</code> — humanoid characters</li>
+      <li><code>creatures/dragon.svg</code> — non-human creatures/monsters</li>
+      <li><code>objects/chest.svg</code> — interactable objects</li>
+      <li><code>items/sword.svg</code> — holdable/wearable items</li>
+      <li><code>effects/fire.svg</code> — visual effects (particles, auras)</li>
+      <li><code>backgrounds/forest-day.svg</code> — full-scene backgrounds</li>
+      <li><code>ui/icon-heart.svg</code> — UI elements (icons, frames, buttons)</li>
+    </ul>
+
+    <h3>SVG Root Attributes</h3>
+    <pre>&lt;svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 W H"
+     data-asset-id="{id}"
+     data-layer="{layer}"
+     data-tags="{tag1},{tag2},{tag3}"
+     data-origin="center-bottom"&gt;</pre>
+
+    <h3>viewBox Sizes</h3>
+    <table>
+      <tr><th>Layer</th><th>ViewBox</th><th>Notes</th></tr>
+      <tr><td>character</td><td>0 0 120 160</td><td>Humanoids, standing pose</td></tr>
+      <tr><td>creature</td><td>0 0 160 160</td><td>Monsters, beasts (square)</td></tr>
+      <tr><td>object</td><td>0 0 80 80</td><td>Props, furniture</td></tr>
+      <tr><td>item</td><td>0 0 60 60</td><td>Holdable items (smaller)</td></tr>
+      <tr><td>effect</td><td>0 0 200 200</td><td>Visual effects, particles</td></tr>
+      <tr><td>background</td><td>0 0 800 500</td><td>Full-scene backgrounds</td></tr>
+      <tr><td>ui</td><td>varies</td><td>80×80 icons, 120×40 buttons</td></tr>
+    </table>
+
+    <h3>data-tags Format</h3>
+    <pre>data-tags="dragon,fire,drake,wyrm,龙,火龙,boss,monster"</pre>
+    <p>Comma-separated, lowercase. Include: English name, synonyms, Chinese name, category, mood/element.</p>
+
+    <h3>Color Palette (Dark Fantasy)</h3>
+    <table>
+      <tr><th>Category</th><th>Colors</th></tr>
+      <tr><td>Backgrounds</td><td>#0a0a1a → #1a1a2e → #2a2a4a</td></tr>
+      <tr><td>Characters</td><td>skin #d4a843, cloth #4a4a5a, metal #8a8a9a</td></tr>
+      <tr><td>Creatures</td><td>#3a5a3a, #5a3a2a, #2a3a5a</td></tr>
+      <tr><td>Objects</td><td>wood #6b4a20, metal #8a8a9a, stone #5a5a5a</td></tr>
+      <tr><td>Effects</td><td>fire #ff6600, magic #a78bfa, ice #88ccff</td></tr>
+      <tr><td>Highlights</td><td>gold #ffd700, danger #cc3333, safe #33cc66</td></tr>
+    </table>
+
+    <h3>Integration</h3>
+    <pre>// Scene engine loads by ID:
+{ "id": "warrior", "gx": 4, "gy": 5 }
+// Looks for assets/svg/characters/warrior.svg
+// Falls back to emoji if SVG not found</pre>
+  </div>
+
+  <footer>
+    <a href="https://github.com/xvcenh/svg-asset-library">GitHub</a> · 
+    <a href="https://github.com/xvcenh/svg-scene-engine">Scene Engine</a> · 
+    200 assets · Dark Fantasy Style
+  </footer>
 </div>
 
-<footer>
-  <a href="https://github.com/anomalyco/svg-asset-library">GitHub</a>
-  <span class="sep">·</span>
-  <a href="docs/asset-spec.md">Asset Spec</a>
-  <span class="sep">·</span>
-  Used by SVG Scene Engine
-</footer>
-
 <script>
-const LAYERS = ['All', 'Characters', 'Creatures', 'Objects', 'Items', 'Effects', 'Backgrounds'];
-const LAYER_MAP = {
-  'Characters': 'character',
-  'Creatures': 'creature',
-  'Objects': 'object',
-  'Items': 'item',
-  'Effects': 'effect',
-  'Backgrounds': 'background'
-};
+const RAW_BASE = 'https://raw.githubusercontent.com/xvcenh/svg-asset-library/main/';
 
-let assets = [];
-let activeTab = 'All';
+let allAssets = [];
+let currentFilter = 'all';
 
 async function init() {
-  const res = await fetch('manifest.json');
-  const data = await res.json();
-  assets = data.assets;
-  renderTabs();
-  renderStats();
-  renderGrid();
-  bindEvents();
-}
+  const resp = await fetch(RAW_BASE + 'manifest.json');
+  const data = await resp.json();
+  allAssets = data.assets;
 
-function renderTabs() {
-  const container = document.getElementById('tabs');
-  container.innerHTML = LAYERS.map(label => {
-    const count = label === 'All' ? assets.length : assets.filter(a => a.layer === LAYER_MAP[label]).length;
-    const active = label === activeTab ? ' active' : '';
-    return `<button class="tab${active}" data-layer="${label}">${label} <span class="count">${count}</span></button>`;
-  }).join('');
-}
+  // Stats
+  const cats = {};
+  allAssets.forEach(a => { cats[a.layer] = (cats[a.layer]||0) + 1; });
+  const statsEl = document.getElementById('stats');
+  statsEl.innerHTML = `<div class="stat">Total: <span>${allAssets.length}</span></div>` +
+    Object.entries(cats).sort().map(([k,v]) => 
+      `<div class="stat">${k}: <span>${v}</span></div>`
+    ).join('');
 
-function renderStats() {
-  const counts = { character: 0, creature: 0, object: 0, item: 0, effect: 0, background: 0 };
-  assets.forEach(a => { if (counts[a.layer] !== undefined) counts[a.layer]++; });
-  document.getElementById('stats').innerHTML = Object.entries(counts)
-    .map(([layer, count]) => `<div class="stat"><span>${count}</span> ${layer}s</div>`).join('')
-    + `<div class="stat"><span>${assets.length}</span> total</div>`;
-}
-
-function getFiltered() {
-  const q = document.getElementById('search').value.toLowerCase().trim();
-  let list = assets;
-  if (activeTab !== 'All') {
-    list = list.filter(a => a.layer === LAYER_MAP[activeTab]);
-  }
-  if (q) {
-    list = list.filter(a => {
-      const tags = (a.tags || '').toLowerCase();
-      const id = a.id.toLowerCase();
-      return id.includes(q) || tags.includes(q);
+  // Tabs
+  const tabsEl = document.getElementById('tabs');
+  const layers = ['all', ...Object.keys(cats).sort()];
+  tabsEl.innerHTML = layers.map(l => 
+    `<div class="tab${l==='all'?' active':''}" data-filter="${l}">
+      ${l==='all'?'All':l}<span class="count">${l==='all'?allAssets.length:cats[l]}</span>
+    </div>`
+  ).join('');
+  tabsEl.querySelectorAll('.tab').forEach(t => {
+    t.addEventListener('click', () => {
+      tabsEl.querySelectorAll('.tab').forEach(x => x.classList.remove('active'));
+      t.classList.add('active');
+      currentFilter = t.dataset.filter;
+      render();
     });
-  }
-  return list;
+  });
+
+  render();
 }
 
-function renderGrid() {
-  const list = getFiltered();
-  const container = document.getElementById('grid');
+function render() {
+  const q = document.getElementById('search').value.toLowerCase().trim();
+  let filtered = allAssets;
+  if (currentFilter !== 'all') filtered = filtered.filter(a => a.layer === currentFilter);
+  if (q) filtered = filtered.filter(a => 
+    a.id.includes(q) || a.tags.includes(q) || a.layer.includes(q) || a.path.includes(q)
+  );
 
-  if (list.length === 0) {
-    container.innerHTML = '<div class="empty">No assets match your filter.</div>';
+  const grid = document.getElementById('grid');
+  if (!filtered.length) {
+    grid.innerHTML = '<div class="empty">No assets found.</div>';
     return;
   }
 
-  container.innerHTML = list.map(a => {
-    const tags = a.tags || '';
-    return `
-      <div class="card" data-id="${a.id}">
-        <div class="preview" data-path="${a.path}"><div class="spinner"></div></div>
-        <div class="info">
-          <div class="id-row">
-            <div class="id">${a.id}</div>
-            <button class="copy-btn" data-id="${a.id}">Copy</button>
-          </div>
-          <div class="layer-badge layer-${a.layer}">${a.layer}</div>
-          <div class="tags" title="${tags.replace(/,/g, ', ')}">${tags.replace(/,/g, ', ')}</div>
-        </div>
-      </div>`;
+  grid.innerHTML = filtered.map(a => {
+    const svgUrl = RAW_BASE + a.path;
+    const tags = a.tags.split(',').slice(0,5).map(t => `<span class="tag">${t.trim()}</span>`).join('');
+    return `<div class="card">
+      <div class="preview"><img src="${svgUrl}" alt="${a.id}" style="max-width:100%;max-height:100%;object-fit:contain;" loading="lazy"></div>
+      <div class="info">
+        <div class="name">${a.id}</div>
+        <div class="meta">${a.layer} · ${a.path.split('/').pop()}</div>
+        <div class="tags">${tags}</div>
+      </div>
+    </div>`;
   }).join('');
-
-  list.forEach(a => {
-    const preview = container.querySelector(`.card[data-id="${a.id}"] .preview`);
-    if (!preview) return;
-    fetch(a.path)
-      .then(r => r.text())
-      .then(svg => {
-        preview.innerHTML = svg;
-        const svgEl = preview.querySelector('svg');
-        if (svgEl) svgEl.removeAttribute('width');
-        if (svgEl) svgEl.removeAttribute('height');
-      })
-      .catch(() => {
-        preview.innerHTML = '<span style="color:#555;font-size:0.85rem">Failed to load</span>';
-      });
-  });
 }
 
-function bindEvents() {
-  document.getElementById('tabs').addEventListener('click', e => {
-    const tab = e.target.closest('.tab');
-    if (!tab) return;
-    activeTab = tab.dataset.layer;
-    document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
-    tab.classList.add('active');
-    renderGrid();
-  });
-
-  document.getElementById('search').addEventListener('input', () => renderGrid());
-
-  document.getElementById('grid').addEventListener('click', e => {
-    const btn = e.target.closest('.copy-btn');
-    if (!btn) return;
-    navigator.clipboard.writeText(btn.dataset.id).then(() => {
-      btn.textContent = 'Copied!';
-      btn.classList.add('copied');
-      setTimeout(() => { btn.textContent = 'Copy'; btn.classList.remove('copied'); }, 1500);
-    });
-  });
-}
-
+document.getElementById('search').addEventListener('input', render);
 init();
 </script>
 </body>

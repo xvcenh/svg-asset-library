@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 40" data-asset-id="ui-notification" data-layer="ui" data-tags="notification,alert,message,通知,提醒">
+  <rect x="4" y="4" width="112" height="32" rx="6" fill="#2a2a3a" opacity="0.95"/>
+  <rect x="2" y="2" width="116" height="36" rx="7" fill="none" stroke="#a78bfa" stroke-width="1.5"/>
+  <circle cx="18" cy="20" r="8" fill="#a78bfa" opacity="0.3"/>
+  <circle cx="18" cy="20" r="4" fill="#a78bfa"/>
+  <line x1="30" y1="14" x2="108" y2="14" stroke="#666" stroke-width="0.8"/>
+  <line x1="30" y1="20" x2="100" y2="20" stroke="#555" stroke-width="0.8"/>
+  <line x1="30" y1="26" x2="90" y2="26" stroke="#444" stroke-width="0.8"/>
+</svg>

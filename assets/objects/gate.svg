@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" data-asset-id="object-gate" data-layer="object" data-origin="center-bottom" data-tags="gate,entrance,iron,大门,入口">
+  <rect x="8" y="8" width="8" height="64" fill="#5a5a5a"/>
+  <rect x="64" y="8" width="8" height="64" fill="#5a5a5a"/>
+  <path d="M16 8 Q40 -2 64 8" stroke="#8a8a9a" stroke-width="4" fill="none"/>
+  <rect x="20" y="16" width="4" height="52" fill="#8a8a9a"/>
+  <rect x="36" y="16" width="4" height="52" fill="#8a8a9a"/>
+  <rect x="52" y="16" width="4" height="52" fill="#8a8a9a"/>
+  <rect x="16" y="30" width="48" height="3" fill="#666"/>
+  <rect x="16" y="50" width="48" height="3" fill="#666"/>
+</svg>

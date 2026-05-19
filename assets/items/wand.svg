@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" data-asset-id="item-wand" data-layer="item" data-origin="center-bottom" data-tags="wand,magic,weapon,魔杖,魔法">
+  <rect x="28" y="16" width="4" height="38" rx="2" fill="#6b4a20"/>
+  <circle cx="30" cy="12" r="8" fill="none" stroke="#a78bfa" stroke-width="2"/>
+  <circle cx="30" cy="12" r="3" fill="#ffd700"/>
+  <circle cx="30" cy="4" r="2" fill="#a78bfa"/>
+</svg>

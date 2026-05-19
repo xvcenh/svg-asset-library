@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" data-asset-id="bg-volcano" data-layer="background" data-tags="volcano,火山,lava,fire,eruption">
+  <defs>
+    <linearGradient id="volcSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a0a0a"/>
+      <stop offset="100%" stop-color="#0a0a1a"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#volcSky)"/>
+  <polygon points="250,500 400,100 550,500" fill="#1a1a2e" opacity="0.8"/>
+  <polygon points="350,500 400,100 450,500" fill="#2a1a0a" opacity="0.3"/>
+  <ellipse cx="400" cy="100" rx="30" ry="15" fill="#ff6600" opacity="0.4"/>
+  <ellipse cx="400" cy="95" rx="15" ry="8" fill="#ff8800" opacity="0.5"/>
+  <polygon points="0,500 150,350 300,500" fill="#0a0a1a" opacity="0.7"/>
+  <polygon points="500,500 700,320 800,380 800,500" fill="#0a0a1a" opacity="0.6"/>
+  <path d="M300,500 Q350,480 400,500 Q450,480 500,500" fill="none" stroke="#ff6600" stroke-width="3" opacity="0.2"/>
+  <ellipse cx="200" cy="480" rx="100" ry="20" fill="#2a0a0a" opacity="0.3"/>
+  <ellipse cx="600" cy="470" rx="80" ry="15" fill="#2a0a0a" opacity="0.25"/>
+</svg>

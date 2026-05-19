@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" data-asset-id="creature-crab" data-layer="creature" data-origin="center-bottom" data-tags="crab,螃蟹,creature,beast,sea">
+  <ellipse cx="80" cy="100" rx="35" ry="22" fill="#cc4422"/>
+  <ellipse cx="80" cy="98" rx="32" ry="19" fill="#dd5533"/>
+  <circle cx="65" cy="95" r="3" fill="#ffeecc"/>
+  <circle cx="95" cy="95" r="3" fill="#ffeecc"/>
+  <circle cx="75" cy="100" r="2.5" fill="#111"/>
+  <circle cx="85" cy="100" r="2.5" fill="#111"/>
+  <circle cx="75" cy="100" r="1" fill="#ff4444"/>
+  <circle cx="85" cy="100" r="1" fill="#ff4444"/>
+  <path d="M45,90 L25,70 L30,65 L40,75 L35,60 L45,70 L42,55 L50,72" fill="#cc4422"/>
+  <path d="M115,90 L135,70 L130,65 L120,75 L125,60 L115,70 L118,55 L110,72" fill="#cc4422"/>
+  <line x1="55" y1="118" x2="45" y2="140" stroke="#cc4422" stroke-width="5" stroke-linecap="round"/>
+  <line x1="65" y1="118" x2="58" y2="140" stroke="#cc4422" stroke-width="5" stroke-linecap="round"/>
+  <line x1="75" y1="120" x2="72" y2="140" stroke="#cc4422" stroke-width="5" stroke-linecap="round"/>
+  <line x1="85" y1="120" x2="88" y2="140" stroke="#cc4422" stroke-width="5" stroke-linecap="round"/>
+  <line x1="95" y1="118" x2="102" y2="140" stroke="#cc4422" stroke-width="5" stroke-linecap="round"/>
+  <line x1="105" y1="118" x2="115" y2="140" stroke="#cc4422" stroke-width="5" stroke-linecap="round"/>
+</svg>

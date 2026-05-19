@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" data-asset-id="fx-shield-aura" data-layer="effect" data-tags="shield,护盾,aura,defense,protect" data-origin="center-center">
+  <circle cx="100" cy="100" r="75" fill="none" stroke="#88ccff" stroke-width="4" opacity="0.15"/>
+  <circle cx="100" cy="100" r="65" fill="none" stroke="#a78bfa" stroke-width="2" opacity="0.2"/>
+  <circle cx="100" cy="100" r="55" fill="none" stroke="#88ccff" stroke-width="1" opacity="0.25"/>
+  <ellipse cx="100" cy="100" rx="70" ry="70" fill="#88ccff" opacity="0.04"/>
+  <polygon points="100,30 115,60 145,65 120,85 128,115 100,100 72,115 80,85 55,65 85,60" fill="none" stroke="#a78bfa" stroke-width="1.5" opacity="0.2"/>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" data-asset-id="creature-goblin" data-layer="creature" data-origin="center-bottom" data-tags="goblin,哥布林,creature,monster,evil">
+  <ellipse cx="80" cy="110" rx="25" ry="30" fill="#4a7a3a"/>
+  <ellipse cx="80" cy="65" rx="20" ry="18" fill="#5a8a4a"/>
+  <polygon points="60,55 55,30 70,50" fill="#5a8a4a"/>
+  <polygon points="100,55 105,30 90,50" fill="#5a8a4a"/>
+  <circle cx="70" cy="62" r="6" fill="#ffff00"/>
+  <circle cx="90" cy="62" r="6" fill="#ffff00"/>
+  <circle cx="70" cy="62" r="3" fill="#111"/>
+  <circle cx="90" cy="62" r="3" fill="#111"/>
+  <path d="M72,75 L80,78 L88,75" stroke="#2a3a1a" stroke-width="2" fill="none"/>
+  <rect x="55" y="100" width="10" height="25" rx="3" fill="#4a7a3a"/>
+  <rect x="95" y="100" width="10" height="25" rx="3" fill="#4a7a3a"/>
+  <line x1="55" y1="105" x2="40" y2="95" stroke="#4a7a3a" stroke-width="8" stroke-linecap="round"/>
+  <line x1="105" y1="105" x2="120" y2="95" stroke="#4a7a3a" stroke-width="8" stroke-linecap="round"/>
+</svg>

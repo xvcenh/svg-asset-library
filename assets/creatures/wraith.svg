@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" data-asset-id="creature-wraith" data-layer="creature" data-origin="center-bottom" data-tags="wraith,怨灵,creature,undead,dark">
+  <path d="M80,20 C100,30 115,60 110,100 C108,120 95,140 80,150 C65,140 52,120 50,100 C45,60 60,30 80,20" fill="#1a1a3a" opacity="0.8"/>
+  <path d="M80,25 C95,35 108,60 105,95 C103,115 92,135 80,145 C68,135 57,115 55,95 C52,60 65,35 80,25" fill="#2a2a4a" opacity="0.6"/>
+  <ellipse cx="68" cy="55" r="8" fill="#8800ff"/>
+  <ellipse cx="92" cy="55" r="8" fill="#8800ff"/>
+  <circle cx="68" cy="55" r="4" fill="#cc88ff"/>
+  <circle cx="92" cy="55" r="4" fill="#cc88ff"/>
+  <circle cx="68" cy="53" r="1.5" fill="#ffffff"/>
+  <circle cx="92" cy="53" r="1.5" fill="#ffffff"/>
+  <ellipse cx="80" cy="75" rx="10" ry="6" fill="#1a1a2a"/>
+  <path d="M50,100 C55,110 45,120 50,130" stroke="#2a2a4a" stroke-width="2" fill="none" opacity="0.5"/>
+  <path d="M110,100 C105,110 115,120 110,130" stroke="#2a2a4a" stroke-width="2" fill="none" opacity="0.5"/>
+</svg>

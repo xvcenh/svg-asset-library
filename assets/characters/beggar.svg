@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 160" data-asset-id="character-beggar" data-layer="character" data-tags="beggar,pauper,乞丐,穷人" data-origin="center-bottom">
+  <!-- Legs -->
+  <rect x="44" y="105" width="14" height="35" rx="3" fill="#5a5a4a"/>
+  <rect x="62" y="105" width="14" height="35" rx="3" fill="#6a6a5a"/>
+  <!-- Bare feet -->
+  <ellipse cx="51" cy="140" rx="9" ry="5" fill="#c49a3a"/>
+  <ellipse cx="69" cy="140" rx="9" ry="5" fill="#c49a3a"/>
+  <!-- Body (tattered) -->
+  <rect x="40" y="55" width="40" height="50" rx="5" fill="#6a6a5a"/>
+  <rect x="43" y="58" width="34" height="44" rx="3" fill="#7a7a6a"/>
+  <!-- Patches -->
+  <rect x="48" y="65" width="10" height="10" rx="1" fill="#5a5a4a"/>
+  <rect x="62" y="78" width="8" height="8" rx="1" fill="#4a4a3a"/>
+  <!-- Rope belt -->
+  <path d="M40 92 Q50 95 60 92 Q70 89 80 92" stroke="#8a7a5a" stroke-width="3" fill="none"/>
+  <!-- Arms (thin) -->
+  <rect x="28" y="60" width="12" height="38" rx="4" fill="#d4a843"/>
+  <rect x="80" y="60" width="12" height="38" rx="4" fill="#d4a843"/>
+  <!-- Bowl -->
+  <ellipse cx="24" cy="98" rx="8" ry="4" fill="#7a7a7a"/>
+  <rect x="16" y="94" width="16" height="6" rx="2" fill="#6a6a6a"/>
+  <circle cx="24" cy="95" r="1" fill="#d4aa43"/>
+  <!-- Stick -->
+  <line x1="88" y1="55" x2="92" y2="135" stroke="#7a6a4a" stroke-width="3"/>
+  <!-- Head -->
+  <ellipse cx="60" cy="35" rx="20" ry="22" fill="#d4a843"/>
+  <!-- Messy hair -->
+  <path d="M40 25 Q42 10 60 8 Q78 10 80 25" stroke="#6a5a3a" stroke-width="4" fill="#7a6a4a"/>
+  <path d="M42 28 L38 20" stroke="#7a6a4a" stroke-width="3"/>
+  <path d="M78 28 L82 18" stroke="#7a6a4a" stroke-width="3"/>
+  <!-- Ragged hood -->
+  <path d="M38 32 Q55 20 65 28" stroke="#6a6a5a" stroke-width="3" fill="none"/>
+  <!-- Eyes -->
+  <ellipse cx="53" cy="33" rx="3" ry="3" fill="#4a4a4a"/>
+  <ellipse cx="67" cy="33" rx="3" ry="3" fill="#4a4a4a"/>
+  <!-- Sad expression -->
+  <path d="M55 44 Q60 41 65 44" stroke="#8a6a4a" stroke-width="1" fill="none"/>
+</svg>

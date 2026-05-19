@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" data-asset-id="creature-bear" data-layer="creature" data-origin="center-bottom" data-tags="bear,熊,creature,beast,nature">
+  <ellipse cx="80" cy="100" rx="45" ry="40" fill="#5a3a2a"/>
+  <ellipse cx="80" cy="55" rx="30" ry="25" fill="#6a4a3a"/>
+  <circle cx="55" cy="40" r="12" fill="#5a3a2a"/>
+  <circle cx="105" cy="40" r="12" fill="#5a3a2a"/>
+  <circle cx="55" cy="40" r="7" fill="#4a2a1a"/>
+  <circle cx="105" cy="40" r="7" fill="#4a2a1a"/>
+  <circle cx="68" cy="52" r="5" fill="#ffcc00"/>
+  <circle cx="92" cy="52" r="5" fill="#ffcc00"/>
+  <circle cx="68" cy="52" r="2" fill="#111"/>
+  <circle cx="92" cy="52" r="2" fill="#111"/>
+  <ellipse cx="80" cy="62" rx="8" ry="5" fill="#3a1a0a"/>
+  <ellipse cx="50" cy="110" rx="14" ry="10" fill="#4a2a1a"/>
+  <ellipse cx="110" cy="110" rx="14" ry="10" fill="#4a2a1a"/>
+</svg>

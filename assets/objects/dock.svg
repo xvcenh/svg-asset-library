@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" data-asset-id="object-dock" data-layer="object" data-origin="center-bottom" data-tags="dock,water,harbor,码头,港口">
+  <rect x="8" y="40" width="64" height="8" rx="2" fill="#6b4a20"/>
+  <rect x="8" y="48" width="6" height="24" fill="#6b4a20"/>
+  <rect x="28" y="48" width="6" height="24" fill="#6b4a20"/>
+  <rect x="48" y="48" width="6" height="24" fill="#6b4a20"/>
+  <rect x="66" y="48" width="6" height="24" fill="#6b4a20"/>
+  <path d="M0 72 Q20 66 40 72 Q60 78 80 72" fill="#1a3a5a" opacity="0.5"/>
+</svg>

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" data-asset-id="item-hammer" data-layer="item" data-origin="center-bottom" data-tags="hammer,weapon,tool,锤子,工具">
+  <rect x="28" y="22" width="4" height="30" rx="2" fill="#6b4a20"/>
+  <rect x="16" y="8" width="28" height="16" rx="3" fill="#8a8a9a"/>
+  <rect x="16" y="8" width="28" height="4" rx="2" fill="#666"/>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" data-asset-id="item-gem" data-layer="item" data-origin="center-bottom" data-tags="gem,jewel,treasure,宝石,珠宝">
+  <polygon points="30,8 44,22 38,52 22,52 16,22" fill="#a78bfa"/>
+  <polygon points="30,8 38,22 22,22" fill="#c4a8ff"/>
+  <polygon points="22,22 38,22 38,52 22,52" fill="#8866dd"/>
+  <line x1="30" y1="8" x2="30" y2="52" stroke="#6644aa" stroke-width="0.5"/>
+</svg>

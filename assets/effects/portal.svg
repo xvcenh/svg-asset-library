@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" data-asset-id="fx-portal" data-layer="effect" data-tags="portal,传送门,warp,gate,teleport" data-origin="center-center">
+  <ellipse cx="100" cy="100" rx="70" ry="70" fill="#a78bfa" opacity="0.05"/>
+  <ellipse cx="100" cy="100" rx="60" ry="60" fill="none" stroke="#a78bfa" stroke-width="3" opacity="0.2"/>
+  <ellipse cx="100" cy="100" rx="50" ry="50" fill="none" stroke="#a78bfa" stroke-width="2" opacity="0.15"/>
+  <ellipse cx="100" cy="100" rx="40" ry="40" fill="#a78bfa" opacity="0.08"/>
+  <ellipse cx="100" cy="100" rx="25" ry="25" fill="#a78bfa" opacity="0.12"/>
+  <ellipse cx="100" cy="100" rx="10" ry="10" fill="#ccbbff" opacity="0.2"/>
+  <circle cx="65" cy="65" r="4" fill="#a78bfa" opacity="0.25"/>
+  <circle cx="135" cy="65" r="3" fill="#a78bfa" opacity="0.2"/>
+  <circle cx="135" cy="135" r="4" fill="#a78bfa" opacity="0.22"/>
+  <circle cx="65" cy="135" r="3" fill="#a78bfa" opacity="0.18"/>
+</svg>

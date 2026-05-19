@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" data-asset-id="creature-griffin" data-layer="creature" data-origin="center-bottom" data-tags="griffin,狮鹫,creature,fantasy,beast">
+  <ellipse cx="85" cy="100" rx="35" ry="28" fill="#8a6a3a"/>
+  <ellipse cx="60" cy="55" rx="20" ry="18" fill="#9a7a4a"/>
+  <polygon points="60,35 50,15 70,35" fill="#9a7a4a"/>
+  <polygon points="60,35 55,20 65,32" fill="#aa8a5a"/>
+  <circle cx="52" cy="52" r="6" fill="#ffcc00"/>
+  <circle cx="68" cy="52" r="6" fill="#ffcc00"/>
+  <circle cx="52" cy="52" r="3" fill="#111"/>
+  <circle cx="68" cy="52" r="3" fill="#111"/>
+  <polygon points="60,62 55,68 65,68" fill="#cc8833"/>
+  <path d="M110,80 L140,60 L130,85 L145,70 L125,95" fill="#7a5a2a"/>
+  <path d="M115,82 L135,65 L128,85 L140,75" fill="#8a6a3a"/>
+  <line x1="55" y1="120" x2="50" y2="145" stroke="#8a6a3a" stroke-width="8" stroke-linecap="round"/>
+  <line x1="75" y1="120" x2="70" y2="145" stroke="#8a6a3a" stroke-width="8" stroke-linecap="round"/>
+  <line x1="95" y1="120" x2="100" y2="145" stroke="#8a6a3a" stroke-width="8" stroke-linecap="round"/>
+  <line x1="115" y1="118" x2="120" y2="145" stroke="#8a6a3a" stroke-width="8" stroke-linecap="round"/>
+</svg>

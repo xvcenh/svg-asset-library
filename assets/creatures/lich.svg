@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" data-asset-id="creature-lich" data-layer="creature" data-origin="center-bottom" data-tags="lich,巫妖,creature,undead,magic">
+  <rect x="55" y="65" width="50" height="70" rx="5" fill="#2a2a3a"/>
+  <ellipse cx="80" cy="45" rx="20" ry="22" fill="#3a3a4a"/>
+  <polygon points="60,30 80,10 100,30 80,25" fill="#4a4a5a"/>
+  <circle cx="70" cy="42" r="8" fill="#111"/>
+  <circle cx="90" cy="42" r="8" fill="#111"/>
+  <circle cx="70" cy="42" r="4" fill="#44ff44"/>
+  <circle cx="90" cy="42" r="4" fill="#44ff44"/>
+  <circle cx="70" cy="40" r="1.5" fill="#fff"/>
+  <circle cx="90" cy="40" r="1.5" fill="#fff"/>
+  <path d="M72,58 L88,58" stroke="#2a2a2a" stroke-width="2"/>
+  <line x1="55" y1="80" x2="35" y2="100" stroke="#2a2a3a" stroke-width="10" stroke-linecap="round"/>
+  <line x1="105" y1="80" x2="125" y2="100" stroke="#2a2a3a" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="35" cy="100" r="6" fill="#44ff44" opacity="0.5"/>
+  <circle cx="125" cy="100" r="6" fill="#44ff44" opacity="0.5"/>
+  <line x1="55" y1="130" x2="55" y2="150" stroke="#2a2a3a" stroke-width="8" stroke-linecap="round"/>
+  <line x1="105" y1="130" x2="105" y2="150" stroke="#2a2a3a" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="80" cy="85" r="8" fill="#44ff44" opacity="0.3"/>
+</svg>

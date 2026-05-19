@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" data-asset-id="creature-boar" data-layer="creature" data-origin="center-bottom" data-tags="boar,野猪,creature,beast,nature">
+  <ellipse cx="85" cy="100" rx="40" ry="28" fill="#5a4a3a"/>
+  <ellipse cx="55" cy="75" rx="22" ry="18" fill="#6a5a4a"/>
+  <polygon points="55,42 48,25 62,40" fill="#6a5a4a"/>
+  <polygon points="65,42 68,25 60,40" fill="#6a5a4a"/>
+  <circle cx="48" cy="72" r="4" fill="#ff4444"/>
+  <circle cx="62" cy="72" r="4" fill="#ff4444"/>
+  <circle cx="48" cy="72" r="2" fill="#ffff00"/>
+  <circle cx="62" cy="72" r="2" fill="#ffff00"/>
+  <ellipse cx="55" cy="82" rx="10" ry="6" fill="#4a3a2a"/>
+  <polygon points="45,85 38,95 50,90" fill="#ffffcc"/>
+  <polygon points="65,85 72,95 60,90" fill="#ffffcc"/>
+  <line x1="45" y1="92" x2="38" y2="100" stroke="#ffffcc" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="65" y1="92" x2="72" y2="100" stroke="#ffffcc" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="60" y1="125" x2="55" y2="148" stroke="#5a4a3a" stroke-width="8" stroke-linecap="round"/>
+  <line x1="80" y1="125" x2="78" y2="148" stroke="#5a4a3a" stroke-width="8" stroke-linecap="round"/>
+  <line x1="100" y1="125" x2="105" y2="148" stroke="#5a4a3a" stroke-width="8" stroke-linecap="round"/>
+  <line x1="118" y1="122" x2="125" y2="148" stroke="#5a4a3a" stroke-width="8" stroke-linecap="round"/>
+  <path d="M110,85 Q130,80 125,95" fill="#5a4a3a" stroke="#5a4a3a" stroke-width="3"/>
+</svg>

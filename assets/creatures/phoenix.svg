@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" data-asset-id="creature-phoenix" data-layer="creature" data-origin="center-bottom" data-tags="phoenix,凤凰,creature,fire,magical">
+  <ellipse cx="80" cy="90" rx="25" ry="30" fill="#ff6600"/>
+  <ellipse cx="80" cy="55" rx="18" ry="16" fill="#ffaa00"/>
+  <polygon points="80,10 70,40 90,40" fill="#ffcc00"/>
+  <polygon points="75,15 72,35 80,30" fill="#ffee88"/>
+  <polygon points="85,15 88,35 80,30" fill="#ffee88"/>
+  <circle cx="72" cy="52" r="5" fill="#ffffff"/>
+  <circle cx="88" cy="52" r="5" fill="#ffffff"/>
+  <circle cx="72" cy="52" r="2" fill="#ff0000"/>
+  <circle cx="88" cy="52" r="2" fill="#ff0000"/>
+  <polygon points="80,62 75,70 85,70" fill="#ffcc00"/>
+  <path d="M55,85 L30,70 L45,90 L25,85 L40,100" fill="#ff4400"/>
+  <path d="M105,85 L130,70 L115,90 L135,85 L120,100" fill="#ff4400"/>
+  <path d="M65,120 L60,140 L70,130 L68,150" fill="#ff8800"/>
+  <path d="M95,120 L100,140 L90,130 L92,150" fill="#ff8800"/>
+  <path d="M80,120 L80,145 L85,135 L82,155" fill="#ffaa00"/>
+  <circle cx="80" cy="55" r="12" fill="#ffcc00" opacity="0.3"/>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" data-asset-id="object-chair" data-layer="object" data-origin="center-bottom" data-tags="chair,furniture,sit,椅子,家具">
+  <rect x="18" y="12" width="44" height="8" rx="2" fill="#6b4a20"/>
+  <rect x="18" y="12" width="8" height="40" rx="2" fill="#6b4a20"/>
+  <rect x="54" y="12" width="8" height="20" rx="2" fill="#6b4a20"/>
+  <rect x="18" y="32" width="44" height="6" rx="2" fill="#8a6b40"/>
+  <rect x="18" y="52" width="8" height="18" rx="2" fill="#6b4a20"/>
+  <rect x="54" y="52" width="8" height="18" rx="2" fill="#6b4a20"/>
+</svg>

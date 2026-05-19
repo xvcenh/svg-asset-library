@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" data-asset-id="bg-harbor" data-layer="background" data-tags="harbor,港口,dock,port,ships">
+  <defs>
+    <linearGradient id="harbSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a0a1a"/>
+      <stop offset="100%" stop-color="#1a1a2e"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#harbSky)"/>
+  <rect y="350" width="800" height="150" fill="#1a1a3e" opacity="0.3"/>
+  <path d="M0,360 Q200,340 400,355 Q600,370 800,350 L800,380 Q600,395 400,380 Q200,365 0,385Z" fill="#88ccff" opacity="0.08"/>
+  <rect x="0" y="380" width="800" height="120" fill="#2a1a0a" opacity="0.3"/>
+  <polygon points="100,380 100,300 110,300 110,380" fill="#1a1a2e" opacity="0.5"/>
+  <polygon points="105,300 90,320 120,320" fill="#1a1a2e" opacity="0.4"/>
+  <polygon points="400,380 400,280 415,280 415,380" fill="#1a1a2e" opacity="0.45"/>
+  <rect x="390" y="280" width="40" height="30" fill="#2a2a4a" opacity="0.3"/>
+  <polygon points="650,380 650,310 660,310 660,380" fill="#1a1a2e" opacity="0.4"/>
+  <rect x="0" y="460" width="800" height="40" fill="#2a1a0a" opacity="0.4"/>
+</svg>

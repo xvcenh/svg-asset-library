@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 40" data-asset-id="ui-tab-active" data-layer="ui" data-tags="tab,active,menu,标签页,菜单">
+  <path d="M4 36 L4 8 Q4 4 8 4 L112 4 Q116 4 116 8 L116 36" fill="#3a3a4a"/>
+  <path d="M4 36 L4 8 Q4 4 8 4 L112 4 Q116 4 116 8 L116 36" fill="none" stroke="#a78bfa" stroke-width="2"/>
+  <line x1="4" y1="36" x2="116" y2="36" stroke="#a78bfa" stroke-width="3"/>
+  <line x1="10" y1="16" x2="110" y2="16" stroke="#555" stroke-width="0.5"/>
+  <line x1="20" y1="24" x2="100" y2="24" stroke="#444" stroke-width="0.5"/>
+</svg>

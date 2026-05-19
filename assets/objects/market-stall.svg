@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" data-asset-id="object-market-stall" data-layer="object" data-origin="center-bottom" data-tags="market,stall,shop,摊位,商店">
+  <rect x="12" y="36" width="56" height="32" rx="2" fill="#6b4a20"/>
+  <path d="M8 12 L40 4 L72 12 L72 20 L8 20 Z" fill="#8a3333"/>
+  <rect x="12" y="36" width="20" height="16" fill="#8a6b40"/>
+  <circle cx="36" cy="46" r="3" fill="#ffd700"/>
+  <circle cx="44" cy="48" r="2.5" fill="#a78bfa"/>
+  <circle cx="52" cy="44" r="3" fill="#2a6b2a"/>
+  <rect x="8" y="20" width="4" height="48" fill="#6b4a20"/>
+  <rect x="68" y="20" width="4" height="48" fill="#6b4a20"/>
+</svg>

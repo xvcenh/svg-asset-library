@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" data-asset-id="item-dagger" data-layer="item" data-origin="center-bottom" data-tags="dagger,weapon,blade,匕首,武器">
+  <polygon points="30,4 34,28 30,32 26,28" fill="#8a8a9a"/>
+  <rect x="26" y="32" width="8" height="8" rx="1" fill="#6b4a20"/>
+  <rect x="24" y="28" width="12" height="4" rx="1" fill="#ffd700"/>
+  <rect x="27" y="40" width="6" height="14" rx="1" fill="#6b4a20"/>
+</svg>
