@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 160" data-asset-id="character-monk" data-layer="character" data-tags="monk,martial artist,僧侣,武僧" data-origin="center-bottom">
+  <!-- Legs -->
+  <rect x="44" y="105" width="14" height="35" rx="3" fill="#8a7a5a"/>
+  <rect x="62" y="105" width="14" height="35" rx="3" fill="#8a7a5a"/>
+  <!-- Sandals -->
+  <rect x="43" y="135" width="16" height="6" rx="2" fill="#6a5a3a"/>
+  <rect x="61" y="135" width="16" height="6" rx="2" fill="#6a5a3a"/>
+  <!-- Body (robes) -->
+  <rect x="40" y="55" width="40" height="50" rx="5" fill="#8a7a5a"/>
+  <rect x="43" y="58" width="34" height="44" rx="3" fill="#9a8a6a"/>
+  <!-- Sash -->
+  <rect x="40" y="85" width="40" height="8" rx="2" fill="#c0a860"/>
+  <!-- Arms (bare) -->
+  <rect x="28" y="58" width="12" height="42" rx="5" fill="#d4a843"/>
+  <rect x="80" y="58" width="12" height="42" rx="5" fill="#d4a843"/>
+  <!-- Prayer beads -->
+  <ellipse cx="60" cy="55" rx="14" ry="5" fill="none" stroke="#6a4a2a" stroke-width="2"/>
+  <circle cx="46" cy="55" r="2" fill="#6a4a2a"/>
+  <circle cx="52" cy="52" r="2" fill="#6a4a2a"/>
+  <circle cx="60" cy="51" r="2" fill="#6a4a2a"/>
+  <circle cx="68" cy="52" r="2" fill="#6a4a2a"/>
+  <circle cx="74" cy="55" r="2" fill="#6a4a2a"/>
+  <!-- Head (shaved) -->
+  <ellipse cx="60" cy="35" rx="20" ry="22" fill="#d4a843"/>
+  <!-- Third eye dot -->
+  <circle cx="60" cy="25" r="2" fill="#aa3a3a"/>
+  <!-- Eyes -->
+  <ellipse cx="53" cy="32" rx="3" ry="2.5" fill="#2a2a2a"/>
+  <ellipse cx="67" cy="32" rx="3" ry="2.5" fill="#2a2a2a"/>
+  <!-- Peaceful expression -->
+  <path d="M55 42 Q60 45 65 42" stroke="#8a6a4a" stroke-width="1" fill="none"/>
+</svg>

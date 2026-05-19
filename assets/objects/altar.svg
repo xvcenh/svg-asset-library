@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" data-asset-id="object-altar" data-layer="object" data-origin="center-bottom" data-tags="altar,religious,magic,祭坛,宗教">
+  <rect x="12" y="50" width="56" height="18" rx="2" fill="#5a5a5a"/>
+  <rect x="16" y="36" width="48" height="16" rx="2" fill="#8a8a9a"/>
+  <rect x="20" y="28" width="40" height="10" rx="2" fill="#5a5a5a"/>
+  <circle cx="40" cy="20" r="8" fill="none" stroke="#a78bfa" stroke-width="2"/>
+  <circle cx="40" cy="20" r="3" fill="#ffd700"/>
+  <line x1="12" y1="68" x2="68" y2="68" stroke="#3a3a3a" stroke-width="3"/>
+</svg>

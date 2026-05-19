@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" data-asset-id="creature-fairy" data-layer="creature" data-origin="center-bottom" data-tags="fairy,精灵,creature,magical,nature">
+  <ellipse cx="80" cy="90" rx="12" ry="18" fill="#88ccaa"/>
+  <ellipse cx="80" cy="65" rx="10" ry="11" fill="#aaddcc"/>
+  <circle cx="76" cy="63" r="3" fill="#ffffff"/>
+  <circle cx="84" cy="63" r="3" fill="#ffffff"/>
+  <circle cx="76" cy="63" r="1.5" fill="#44aaff"/>
+  <circle cx="84" cy="63" r="1.5" fill="#44aaff"/>
+  <path d="M78,70 L82,70" stroke="#66aa88" stroke-width="1.5"/>
+  <path d="M65,80 Q50,60 55,45 Q60,35 70,50 Q65,65 68,78" fill="#aaffdd" opacity="0.5"/>
+  <path d="M95,80 Q110,60 105,45 Q100,35 90,50 Q95,65 92,78" fill="#aaffdd" opacity="0.5"/>
+  <path d="M65,80 Q50,60 55,45 Q60,35 70,50 Q65,65 68,78" fill="none" stroke="#88ddbb" stroke-width="0.5"/>
+  <path d="M95,80 Q110,60 105,45 Q100,35 90,50 Q95,65 92,78" fill="none" stroke="#88ddbb" stroke-width="0.5"/>
+  <line x1="76" y1="105" x2="72" y2="120" stroke="#88ccaa" stroke-width="3" stroke-linecap="round"/>
+  <line x1="84" y1="105" x2="88" y2="120" stroke="#88ccaa" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="55" cy="48" r="2" fill="#ffff88" opacity="0.7"/>
+  <circle cx="105" cy="48" r="2" fill="#ffff88" opacity="0.7"/>
+  <circle cx="80" cy="50" r="1" fill="#ffff88" opacity="0.5"/>
+</svg>

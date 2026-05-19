@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" data-asset-id="object-bench" data-layer="object" data-origin="center-bottom" data-tags="bench,seat,furniture,长凳,家具">
+  <rect x="8" y="32" width="64" height="8" rx="2" fill="#6b4a20"/>
+  <rect x="12" y="40" width="6" height="28" rx="1" fill="#6b4a20"/>
+  <rect x="62" y="40" width="6" height="28" rx="1" fill="#6b4a20"/>
+  <rect x="8" y="24" width="64" height="6" rx="2" fill="#8a6b40"/>
+  <rect x="12" y="16" width="6" height="16" rx="1" fill="#6b4a20"/>
+  <rect x="62" y="16" width="6" height="16" rx="1" fill="#6b4a20"/>
+</svg>

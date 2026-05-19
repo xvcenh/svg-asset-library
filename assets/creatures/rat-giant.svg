@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" data-asset-id="creature-rat-giant" data-layer="creature" data-origin="center-bottom" data-tags="rat-giant,巨鼠,creature,beast,rodent">
+  <ellipse cx="85" cy="100" rx="40" ry="25" fill="#6a5a4a"/>
+  <ellipse cx="55" cy="65" rx="22" ry="18" fill="#7a6a5a"/>
+  <ellipse cx="40" cy="45" r="12" ry="15" fill="#7a6a5a"/>
+  <ellipse cx="70" cy="48" r="10" ry="12" fill="#7a6a5a"/>
+  <ellipse cx="40" cy="42" r="8" ry="10" fill="#cc8877"/>
+  <ellipse cx="70" cy="45" r="7" ry="9" fill="#cc8877"/>
+  <circle cx="48" cy="62" r="5" fill="#ff4444"/>
+  <circle cx="62" cy="62" r="5" fill="#ff4444"/>
+  <circle cx="48" cy="62" r="2.5" fill="#111"/>
+  <circle cx="62" cy="62" r="2.5" fill="#111"/>
+  <ellipse cx="55" cy="72" rx="6" ry="3" fill="#cc8877"/>
+  <line x1="52" y1="72" x2="48" y2="75" stroke="#5a4a3a" stroke-width="0.8"/>
+  <line x1="55" y1="72" x2="55" y2="76" stroke="#5a4a3a" stroke-width="0.8"/>
+  <line x1="58" y1="72" x2="62" y2="75" stroke="#5a4a3a" stroke-width="0.8"/>
+  <path d="M120,100 Q140,90 150,100 Q145,110 130,105" fill="#6a5a4a"/>
+  <line x1="50" y1="120" x2="45" y2="145" stroke="#6a5a4a" stroke-width="7" stroke-linecap="round"/>
+  <line x1="70" y1="120" x2="65" y2="145" stroke="#6a5a4a" stroke-width="7" stroke-linecap="round"/>
+  <line x1="90" y1="118" x2="95" y2="145" stroke="#6a5a4a" stroke-width="7" stroke-linecap="round"/>
+  <line x1="110" y1="115" x2="115" y2="145" stroke="#6a5a4a" stroke-width="7" stroke-linecap="round"/>
+</svg>

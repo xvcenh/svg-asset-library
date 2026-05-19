@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" data-asset-id="ui-icon-potion" data-layer="ui" data-tags="icon,potion,health,图标,药水">
+  <rect x="32" y="8" width="16" height="10" rx="3" fill="#8a8a9a"/>
+  <path d="M28 18 L22 40 Q20 60 40 60 Q60 60 58 40 L52 18 Z" fill="#cc3333"/>
+  <ellipse cx="40" cy="36" rx="14" ry="8" fill="#ee5555" opacity="0.4"/>
+  <circle cx="34" cy="30" r="3" fill="#ff8888" opacity="0.5"/>
+</svg>

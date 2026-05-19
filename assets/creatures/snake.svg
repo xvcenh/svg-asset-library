@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" data-asset-id="creature-snake" data-layer="creature" data-origin="center-bottom" data-tags="snake,蛇,creature,beast,reptile">
+  <path d="M30,140 Q20,120 35,105 Q50,90 45,70 Q40,50 55,40 Q70,30 65,50 Q60,70 75,75" fill="none" stroke="#3a5a3a" stroke-width="14" stroke-linecap="round"/>
+  <path d="M30,140 Q20,120 35,105 Q50,90 45,70 Q40,50 55,40 Q70,30 65,50 Q60,70 75,75" fill="none" stroke="#4a7a4a" stroke-width="9" stroke-linecap="round"/>
+  <ellipse cx="78" cy="42" rx="10" ry="8" fill="#4a7a4a"/>
+  <circle cx="74" cy="40" r="3" fill="#ffff00"/>
+  <circle cx="82" cy="40" r="3" fill="#ffff00"/>
+  <circle cx="74" cy="40" r="1.5" fill="#111"/>
+  <circle cx="82" cy="40" r="1.5" fill="#111"/>
+  <path d="M78,46 L76,52 M78,46 L80,52 M78,46 L78,54" stroke="#ff4444" stroke-width="1.2"/>
+  <path d="M35,105 L40,103 M45,70 L50,68 M55,40 L58,38" stroke="#2a4a2a" stroke-width="1.5" fill="none"/>
+</svg>

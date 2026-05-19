@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" data-asset-id="ui-icon-attack" data-layer="ui" data-tags="icon,attack,sword,图标,攻击">
+  <polygon points="40,6 46,40 40,44 34,40" fill="#cc3333"/>
+  <rect x="28" y="44" width="24" height="6" rx="2" fill="#8a8a9a"/>
+  <rect x="36" y="50" width="8" height="18" rx="2" fill="#6b4a20"/>
+  <line x1="22" y1="34" x2="34" y2="40" stroke="#cc3333" stroke-width="3" stroke-linecap="round"/>
+  <line x1="58" y1="34" x2="46" y2="40" stroke="#cc3333" stroke-width="3" stroke-linecap="round"/>
+</svg>

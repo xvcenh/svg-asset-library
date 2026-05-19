@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" data-asset-id="bg-plains" data-layer="background" data-tags="plains,平原,grassland,field,meadow">
+  <defs>
+    <linearGradient id="plainSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a0a1a"/>
+      <stop offset="70%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#1a2a1a"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#plainSky)"/>
+  <polygon points="0,350 200,320 400,340 600,310 800,330 800,500 0,500" fill="#1a2a1a" opacity="0.3"/>
+  <polygon points="0,380 300,360 500,375 700,355 800,370 800,500 0,500" fill="#0a1a0a" opacity="0.25"/>
+  <polygon points="0,420 250,400 500,415 800,400 800,500 0,500" fill="#1a1a2e" opacity="0.2"/>
+  <ellipse cx="700" cy="80" rx="20" ry="20" fill="#ddddf0" opacity="0.25"/>
+  <circle cx="100" cy="340" r="2" fill="#2a4a2a" opacity="0.3"/>
+  <circle cx="300" cy="355" r="2" fill="#2a4a2a" opacity="0.3"/>
+  <circle cx="500" cy="330" r="2" fill="#2a4a2a" opacity="0.3"/>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" data-asset-id="fx-ice-shatter" data-layer="effect" data-tags="ice,冰,shatter,crystal,frost" data-origin="center-center">
+  <circle cx="100" cy="100" r="60" fill="#88ccff" opacity="0.06"/>
+  <polygon points="100,40 110,90 160,90 120,120 135,170 100,140 65,170 80,120 40,90 90,90" fill="none" stroke="#88ccff" stroke-width="2" opacity="0.3"/>
+  <polygon points="100,60 105,95 140,95 112,112 122,148 100,130 78,148 88,112 60,95 95,95" fill="#88ccff" opacity="0.08"/>
+  <rect x="95" y="50" width="10" height="20" fill="#aaddff" opacity="0.2" transform="rotate(15,100,60)"/>
+  <rect x="120" y="80" width="8" height="15" fill="#aaddff" opacity="0.15" transform="rotate(-20,124,87)"/>
+  <rect x="70" y="90" width="8" height="15" fill="#aaddff" opacity="0.15" transform="rotate(25,74,97)"/>
+</svg>

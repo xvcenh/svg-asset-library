@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" data-asset-id="creature-bat" data-layer="creature" data-origin="center-bottom" data-tags="bat,蝙蝠,creature,flying,undead">
+  <polygon points="80,30 40,70 10,60 30,80 15,100 50,85 80,95 110,85 145,100 130,80 150,60 120,70" fill="#2a2a3a"/>
+  <polygon points="80,40 50,75 30,65 50,80 80,85 110,80 130,65 110,75" fill="#3a3a4a"/>
+  <circle cx="65" cy="68" r="5" fill="#ff4444"/>
+  <circle cx="95" cy="68" r="5" fill="#ff4444"/>
+  <circle cx="65" cy="68" r="2" fill="#ffff88"/>
+  <circle cx="95" cy="68" r="2" fill="#ffff88"/>
+  <polygon points="80,72 75,78 85,78" fill="#ff6666"/>
+  <path d="M70,80 L80,85 L90,80" stroke="#1a1a2a" stroke-width="1.5" fill="none"/>
+</svg>

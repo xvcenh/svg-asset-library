@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" data-asset-id="object-throne" data-layer="object" data-origin="center-bottom" data-tags="throne,chair,royal,王座,皇家">
+  <rect x="16" y="10" width="48" height="52" rx="3" fill="#5a5a5a"/>
+  <rect x="20" y="14" width="40" height="44" rx="2" fill="#8a3333"/>
+  <polygon points="40,6 44,14 36,14" fill="#ffd700"/>
+  <rect x="20" y="46" width="40" height="10" rx="2" fill="#6b4a20"/>
+  <rect x="22" y="48" width="36" height="6" rx="1" fill="#8a6b40"/>
+  <rect x="16" y="62" width="48" height="8" rx="2" fill="#5a5a5a"/>
+  <rect x="12" y="58" width="8" height="14" rx="2" fill="#8a8a9a"/>
+  <rect x="60" y="58" width="8" height="14" rx="2" fill="#8a8a9a"/>
+</svg>

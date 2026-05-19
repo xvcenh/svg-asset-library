@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" data-asset-id="creature-minotaur" data-layer="creature" data-origin="center-bottom" data-tags="minotaur,牛头人,creature,monster,mythical">
+  <rect x="50" y="70" width="60" height="60" rx="8" fill="#5a3a2a"/>
+  <ellipse cx="80" cy="45" rx="25" ry="22" fill="#6a4a3a"/>
+  <line x1="55" y1="35" x2="35" y2="15" stroke="#5a3a2a" stroke-width="8" stroke-linecap="round"/>
+  <line x1="105" y1="35" x2="125" y2="15" stroke="#5a3a2a" stroke-width="8" stroke-linecap="round"/>
+  <polygon points="35,15 30,10 40,18" fill="#ffcc00"/>
+  <polygon points="125,15 130,10 120,18" fill="#ffcc00"/>
+  <circle cx="68" cy="42" r="7" fill="#ff4444"/>
+  <circle cx="92" cy="42" r="7" fill="#ff4444"/>
+  <circle cx="68" cy="42" r="3" fill="#ffff00"/>
+  <circle cx="92" cy="42" r="3" fill="#ffff00"/>
+  <ellipse cx="80" cy="55" rx="12" ry="8" fill="#4a2a1a"/>
+  <circle cx="76" cy="55" r="2" fill="#888"/>
+  <circle cx="84" cy="55" r="2" fill="#888"/>
+  <path d="M72,62 Q80,68 88,62" stroke="#ffcc00" stroke-width="2" fill="none"/>
+  <rect x="50" y="125" width="18" height="20" rx="4" fill="#5a3a2a"/>
+  <rect x="92" y="125" width="18" height="20" rx="4" fill="#5a3a2a"/>
+  <line x1="45" y1="85" x2="30" y2="105" stroke="#5a3a2a" stroke-width="14" stroke-linecap="round"/>
+  <line x1="115" y1="85" x2="130" y2="105" stroke="#5a3a2a" stroke-width="14" stroke-linecap="round"/>
+</svg>

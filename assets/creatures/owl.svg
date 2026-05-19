@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" data-asset-id="creature-owl" data-layer="creature" data-origin="center-bottom" data-tags="owl,猫头鹰,creature,beast,nature">
+  <ellipse cx="80" cy="95" rx="30" ry="35" fill="#5a3a2a"/>
+  <ellipse cx="80" cy="55" rx="28" ry="25" fill="#6a4a3a"/>
+  <polygon points="55,40 45,15 65,35" fill="#6a4a3a"/>
+  <polygon points="105,40 115,15 95,35" fill="#6a4a3a"/>
+  <polygon points="55,40 48,18 62,36" fill="#5a3a2a"/>
+  <polygon points="105,40 112,18 98,36" fill="#5a3a2a"/>
+  <circle cx="68" cy="50" r="12" fill="#ffcc00"/>
+  <circle cx="92" cy="50" r="12" fill="#ffcc00"/>
+  <circle cx="68" cy="50" r="8" fill="#111"/>
+  <circle cx="92" cy="50" r="8" fill="#111"/>
+  <circle cx="68" cy="48" r="3" fill="#ffcc00"/>
+  <circle cx="92" cy="48" r="3" fill="#ffcc00"/>
+  <polygon points="80,58 76,65 84,65" fill="#cc8833"/>
+  <path d="M55,80 L40,70 L48,85 L35,80 L50,95" fill="#5a3a2a"/>
+  <path d="M105,80 L120,70 L112,85 L125,80 L110,95" fill="#5a3a2a"/>
+  <line x1="70" y1="125" x2="68" y2="148" stroke="#5a3a2a" stroke-width="6" stroke-linecap="round"/>
+  <line x1="90" y1="125" x2="92" y2="148" stroke="#5a3a2a" stroke-width="6" stroke-linecap="round"/>
+  <ellipse cx="80" cy="90" rx="15" ry="18" fill="#7a5a4a"/>
+  <ellipse cx="80" cy="90" rx="12" ry="15" fill="#8a6a5a"/>
+</svg>

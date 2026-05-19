@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" data-asset-id="object-ladder" data-layer="object" data-origin="center-bottom" data-tags="ladder,climb,tool,梯子,工具">
+  <rect x="22" y="4" width="4" height="68" rx="1" fill="#6b4a20"/>
+  <rect x="54" y="4" width="4" height="68" rx="1" fill="#6b4a20"/>
+  <rect x="22" y="12" width="36" height="4" rx="1" fill="#8a6b40"/>
+  <rect x="22" y="26" width="36" height="4" rx="1" fill="#8a6b40"/>
+  <rect x="22" y="40" width="36" height="4" rx="1" fill="#8a6b40"/>
+  <rect x="22" y="54" width="36" height="4" rx="1" fill="#8a6b40"/>
+</svg>

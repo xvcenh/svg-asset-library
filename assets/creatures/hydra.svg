@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" data-asset-id="creature-hydra" data-layer="creature" data-origin="center-bottom" data-tags="hydra,九头蛇,creature,dragon,monster">
+  <path d="M60,120 Q80,100 100,120 L105,150 L55,150 Z" fill="#3a5a3a"/>
+  <ellipse cx="50" cy="50" rx="14" ry="12" fill="#4a6a4a"/>
+  <ellipse cx="80" cy="40" rx="14" ry="12" fill="#4a6a4a"/>
+  <ellipse cx="110" cy="50" rx="14" ry="12" fill="#4a6a4a"/>
+  <line x1="50" y1="62" x2="60" y2="100" stroke="#3a5a3a" stroke-width="10" stroke-linecap="round"/>
+  <line x1="80" y1="52" x2="80" y2="100" stroke="#3a5a3a" stroke-width="10" stroke-linecap="round"/>
+  <line x1="110" y1="62" x2="100" y2="100" stroke="#3a5a3a" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="45" cy="48" r="4" fill="#ffff00"/>
+  <circle cx="55" cy="48" r="4" fill="#ffff00"/>
+  <circle cx="75" cy="38" r="4" fill="#ffff00"/>
+  <circle cx="85" cy="38" r="4" fill="#ffff00"/>
+  <circle cx="105" cy="48" r="4" fill="#ffff00"/>
+  <circle cx="115" cy="48" r="4" fill="#ffff00"/>
+  <circle cx="45" cy="48" r="2" fill="#111"/>
+  <circle cx="55" cy="48" r="2" fill="#111"/>
+  <circle cx="75" cy="38" r="2" fill="#111"/>
+  <circle cx="85" cy="38" r="2" fill="#111"/>
+  <circle cx="105" cy="48" r="2" fill="#111"/>
+  <circle cx="115" cy="48" r="2" fill="#111"/>
+  <path d="M45,56 L55,56" stroke="#2a3a2a" stroke-width="1.5"/>
+  <path d="M75,46 L85,46" stroke="#2a3a2a" stroke-width="1.5"/>
+  <path d="M105,56 L115,56" stroke="#2a3a2a" stroke-width="1.5"/>
+  <polygon points="45,58 50,62 55,58" fill="#ffcc00"/>
+  <polygon points="75,48 80,52 85,48" fill="#ffcc00"/>
+  <polygon points="105,58 110,62 115,58" fill="#ffcc00"/>
+</svg>

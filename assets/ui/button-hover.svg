@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 40" data-asset-id="ui-button-hover" data-layer="ui" data-tags="button,hover,ui,按钮,悬停">
+  <rect x="2" y="2" width="116" height="36" rx="6" fill="#a78bfa"/>
+  <rect x="4" y="4" width="112" height="32" rx="4" fill="#b89cff"/>
+  <rect x="4" y="4" width="112" height="16" rx="4" fill="#c8acff" opacity="0.5"/>
+  <rect x="4" y="30" width="112" height="6" rx="3" fill="#8866dd" opacity="0.3"/>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" data-asset-id="creature-orc" data-layer="creature" data-origin="center-bottom" data-tags="orc,兽人,creature,monster,warrior">
+  <rect x="55" y="85" width="50" height="50" rx="8" fill="#3a5a3a"/>
+  <ellipse cx="80" cy="55" rx="25" ry="22" fill="#4a6a4a"/>
+  <polygon points="58,45 45,35 65,48" fill="#4a6a4a"/>
+  <polygon points="102,45 115,35 95,48" fill="#4a6a4a"/>
+  <circle cx="68" cy="52" r="7" fill="#cc2222"/>
+  <circle cx="92" cy="52" r="7" fill="#cc2222"/>
+  <circle cx="68" cy="52" r="3" fill="#ffff00"/>
+  <circle cx="92" cy="52" r="3" fill="#ffff00"/>
+  <rect x="70" y="65" width="20" height="8" rx="2" fill="#2a3a2a"/>
+  <polygon points="70,68 65,72 70,72" fill="#ffffcc"/>
+  <polygon points="90,68 95,72 90,72" fill="#ffffcc"/>
+  <rect x="55" y="130" width="15" height="15" rx="3" fill="#3a5a3a"/>
+  <rect x="90" y="130" width="15" height="15" rx="3" fill="#3a5a3a"/>
+  <rect x="40" y="90" width="12" height="40" rx="3" fill="#555"/>
+  <rect x="108" y="90" width="12" height="40" rx="3" fill="#555"/>
+</svg>

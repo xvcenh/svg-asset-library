@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" data-asset-id="bg-beach" data-layer="background" data-tags="beach,海滩,ocean,coast,shore">
+  <defs>
+    <linearGradient id="beachSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a0a1a"/>
+      <stop offset="100%" stop-color="#1a1a2e"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#beachSky)"/>
+  <rect y="300" width="800" height="200" fill="#1a1a2e" opacity="0.8"/>
+  <polygon points="0,380 100,360 250,370 400,350 550,365 700,355 800,370 800,500 0,500" fill="#2a1a0a" opacity="0.5"/>
+  <ellipse cx="400" cy="450" rx="500" ry="80" fill="#3a2a1a" opacity="0.4"/>
+  <path d="M0,320 Q100,310 200,325 Q300,340 400,320 Q500,300 600,315 Q700,330 800,310 L800,350 Q700,365 600,350 Q500,335 400,355 Q300,375 200,360 Q100,345 0,355Z" fill="#88ccff" opacity="0.15"/>
+  <circle cx="600" cy="60" r="25" fill="#ddddf0" opacity="0.3"/>
+</svg>

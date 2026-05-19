@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" data-asset-id="bg-desert" data-layer="background" data-tags="desert,沙漠,wasteland,arid,terrain">
+  <defs>
+    <linearGradient id="desertSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="60%" stop-color="#2a2a4a"/>
+      <stop offset="100%" stop-color="#3a2a2a"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#desertSky)"/>
+  <ellipse cx="400" cy="520" rx="500" ry="120" fill="#2a1a0a" opacity="0.8"/>
+  <polygon points="0,380 150,320 300,370 450,340 600,360 800,330 800,500 0,500" fill="#3a2a1a" opacity="0.6"/>
+  <polygon points="0,420 200,390 400,410 600,380 800,400 800,500 0,500" fill="#2a1a0a" opacity="0.7"/>
+  <circle cx="650" cy="80" r="30" fill="#ff6600" opacity="0.3"/>
+  <circle cx="650" cy="80" r="20" fill="#ff8800" opacity="0.4"/>
+</svg>

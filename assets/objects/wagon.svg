@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" data-asset-id="object-wagon" data-layer="object" data-origin="center-bottom" data-tags="wagon,cart,transport,马车,运输">
+  <rect x="10" y="28" width="60" height="24" rx="3" fill="#6b4a20"/>
+  <path d="M10 28 L14 16 L66 16 L70 28" fill="#8a6b40"/>
+  <circle cx="22" cy="58" r="8" fill="#5a5a5a"/>
+  <circle cx="22" cy="58" r="3" fill="#8a8a9a"/>
+  <circle cx="58" cy="58" r="8" fill="#5a5a5a"/>
+  <circle cx="58" cy="58" r="3" fill="#8a8a9a"/>
+  <line x1="6" y1="24" x2="20" y2="16" stroke="#6b4a20" stroke-width="3"/>
+</svg>

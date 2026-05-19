@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" data-asset-id="bg-dungeon" data-layer="background" data-tags="dungeon,地牢,underground,prison,stone">
+  <rect width="800" height="500" fill="#0a0a1a"/>
+  <rect x="50" y="50" width="700" height="400" fill="#1a1a2e" opacity="0.5"/>
+  <rect x="80" y="80" width="640" height="340" fill="#0a0a1a" opacity="0.6"/>
+  <rect x="100" y="200" width="80" height="200" fill="#1a1a3e" opacity="0.4"/>
+  <rect x="250" y="200" width="80" height="200" fill="#1a1a3e" opacity="0.4"/>
+  <rect x="470" y="200" width="80" height="200" fill="#1a1a3e" opacity="0.4"/>
+  <rect x="620" y="200" width="80" height="200" fill="#1a1a3e" opacity="0.4"/>
+  <rect x="140" y="100" width="80" height="60" fill="#2a2a4a" opacity="0.3"/>
+  <rect x="320" y="100" width="160" height="100" fill="#1a1a2e" opacity="0.4"/>
+  <rect x="580" y="100" width="80" height="60" fill="#2a2a4a" opacity="0.3"/>
+  <rect x="340" y="150" width="120" height="50" fill="#0a0a1a" opacity="0.8"/>
+  <circle cx="400" cy="80" r="8" fill="#ff6600" opacity="0.3"/>
+  <circle cx="400" cy="80" r="4" fill="#ff8800" opacity="0.5"/>
+</svg>

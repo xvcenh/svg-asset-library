@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 40" data-asset-id="ui-button-normal" data-layer="ui" data-tags="button,normal,ui,按钮,普通">
+  <rect x="2" y="2" width="116" height="36" rx="6" fill="#2a2a3a"/>
+  <rect x="4" y="4" width="112" height="32" rx="4" fill="#3a3a4a"/>
+  <rect x="4" y="4" width="112" height="16" rx="4" fill="#4a4a5a" opacity="0.5"/>
+  <rect x="4" y="30" width="112" height="6" rx="3" fill="#222" opacity="0.3"/>
+</svg>

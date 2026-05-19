@@ -317,6 +317,888 @@
       "path": "assets/objects/torch.svg",
       "layer": "object",
       "tags": "torch,wall,fire,light,prop,flame"
+    },
+    {
+      "id": "bg-arena",
+      "path": "assets/backgrounds/arena.svg",
+      "layer": "background",
+      "tags": "arena,竞技场,colosseum,battle,fight"
+    },
+    {
+      "id": "bg-beach",
+      "path": "assets/backgrounds/beach.svg",
+      "layer": "background",
+      "tags": "beach,海滩,ocean,coast,shore"
+    },
+    {
+      "id": "bg-cathedral",
+      "path": "assets/backgrounds/cathedral.svg",
+      "layer": "background",
+      "tags": "cathedral,大教堂,church,holy,gotic"
+    },
+    {
+      "id": "bg-desert",
+      "path": "assets/backgrounds/desert.svg",
+      "layer": "background",
+      "tags": "desert,沙漠,wasteland,arid,terrain"
+    },
+    {
+      "id": "bg-dungeon",
+      "path": "assets/backgrounds/dungeon.svg",
+      "layer": "background",
+      "tags": "dungeon,地牢,underground,prison,stone"
+    },
+    {
+      "id": "bg-graveyard",
+      "path": "assets/backgrounds/graveyard.svg",
+      "layer": "background",
+      "tags": "graveyard,墓地,cemetery,tombstone,death"
+    },
+    {
+      "id": "bg-harbor",
+      "path": "assets/backgrounds/harbor.svg",
+      "layer": "background",
+      "tags": "harbor,港口,dock,port,ships"
+    },
+    {
+      "id": "bg-library",
+      "path": "assets/backgrounds/library.svg",
+      "layer": "background",
+      "tags": "library,图书馆,books,study,knowledge"
+    },
+    {
+      "id": "bg-plains",
+      "path": "assets/backgrounds/plains.svg",
+      "layer": "background",
+      "tags": "plains,平原,grassland,field,meadow"
+    },
+    {
+      "id": "bg-snow-mountain",
+      "path": "assets/backgrounds/snow-mountain.svg",
+      "layer": "background",
+      "tags": "snow,mountain,雪山,winter,alpine,terrain"
+    },
+    {
+      "id": "bg-swamp",
+      "path": "assets/backgrounds/swamp.svg",
+      "layer": "background",
+      "tags": "swamp,沼泽,marsh,bog,wetland"
+    },
+    {
+      "id": "bg-throne-room",
+      "path": "assets/backgrounds/throne-room.svg",
+      "layer": "background",
+      "tags": "throne,王座,royal,palace,kingdom"
+    },
+    {
+      "id": "bg-underwater",
+      "path": "assets/backgrounds/underwater.svg",
+      "layer": "background",
+      "tags": "underwater,海底,ocean,deep,submarine"
+    },
+    {
+      "id": "bg-volcano",
+      "path": "assets/backgrounds/volcano.svg",
+      "layer": "background",
+      "tags": "volcano,火山,lava,fire,eruption"
+    },
+    {
+      "id": "bg-workshop",
+      "path": "assets/backgrounds/workshop.svg",
+      "layer": "background",
+      "tags": "workshop,工坊,forge,craft,smith"
+    },
+    {
+      "id": "fx-buff-glow",
+      "path": "assets/effects/buff-glow.svg",
+      "layer": "effect",
+      "tags": "buff,增益,glow,boost,power"
+    },
+    {
+      "id": "fx-dark-sparkle",
+      "path": "assets/effects/dark-sparkle.svg",
+      "layer": "effect",
+      "tags": "dark,暗黑,sparkle,shimmer,shadow"
+    },
+    {
+      "id": "fx-explosion",
+      "path": "assets/effects/explosion.svg",
+      "layer": "effect",
+      "tags": "explosion,爆炸,blast,fire,boom"
+    },
+    {
+      "id": "fx-heal-glow",
+      "path": "assets/effects/heal-glow.svg",
+      "layer": "effect",
+      "tags": "heal,治疗,glow,restore,health"
+    },
+    {
+      "id": "fx-ice-shatter",
+      "path": "assets/effects/ice-shatter.svg",
+      "layer": "effect",
+      "tags": "ice,冰,shatter,crystal,frost"
+    },
+    {
+      "id": "fx-lightning",
+      "path": "assets/effects/lightning.svg",
+      "layer": "effect",
+      "tags": "lightning,闪电,thunder,electric,storm"
+    },
+    {
+      "id": "fx-poison-cloud",
+      "path": "assets/effects/poison-cloud.svg",
+      "layer": "effect",
+      "tags": "poison,毒,cloud,toxic,venom"
+    },
+    {
+      "id": "fx-portal",
+      "path": "assets/effects/portal.svg",
+      "layer": "effect",
+      "tags": "portal,传送门,warp,gate,teleport"
+    },
+    {
+      "id": "fx-rain-overlay",
+      "path": "assets/effects/rain-overlay.svg",
+      "layer": "effect",
+      "tags": "rain,雨,water,storm,weather"
+    },
+    {
+      "id": "fx-shadow-aura",
+      "path": "assets/effects/shadow-aura.svg",
+      "layer": "effect",
+      "tags": "shadow,阴影,aura,dark,evil"
+    },
+    {
+      "id": "fx-shield-aura",
+      "path": "assets/effects/shield-aura.svg",
+      "layer": "effect",
+      "tags": "shield,护盾,aura,defense,protect"
+    },
+    {
+      "id": "fx-smoke",
+      "path": "assets/effects/smoke.svg",
+      "layer": "effect",
+      "tags": "smoke,烟雾,fog,mist,cloud"
+    },
+    {
+      "id": "fx-snow-fall",
+      "path": "assets/effects/snow-fall.svg",
+      "layer": "effect",
+      "tags": "snow,雪,winter,flakes,cold"
+    },
+    {
+      "id": "fx-teleport-flash",
+      "path": "assets/effects/teleport-flash.svg",
+      "layer": "effect",
+      "tags": "teleport,传送,flash,warp,blink"
+    },
+    {
+      "id": "fx-wind-streaks",
+      "path": "assets/effects/wind-streaks.svg",
+      "layer": "effect",
+      "tags": "wind,风,streaks,air,gust"
+    },
+    {
+      "id": "character-archer",
+      "path": "assets/characters/archer.svg",
+      "layer": "character",
+      "tags": "archer,bowman,弓箭手,射手"
+    },
+    {
+      "id": "character-beggar",
+      "path": "assets/characters/beggar.svg",
+      "layer": "character",
+      "tags": "beggar,pauper,乞丐,穷人"
+    },
+    {
+      "id": "character-blacksmith",
+      "path": "assets/characters/blacksmith.svg",
+      "layer": "character",
+      "tags": "blacksmith,smith,铁匠,工匠"
+    },
+    {
+      "id": "character-druid",
+      "path": "assets/characters/druid.svg",
+      "layer": "character",
+      "tags": "druid,nature mage,德鲁伊,自然法师"
+    },
+    {
+      "id": "character-executioner",
+      "path": "assets/characters/executioner.svg",
+      "layer": "character",
+      "tags": "executioner,headsman,刽子手,行刑者"
+    },
+    {
+      "id": "character-farmer",
+      "path": "assets/characters/farmer.svg",
+      "layer": "character",
+      "tags": "farmer,peasant,农民,农夫"
+    },
+    {
+      "id": "character-gladiator",
+      "path": "assets/characters/gladiator.svg",
+      "layer": "character",
+      "tags": "gladiator,arena fighter,角斗士,格斗士"
+    },
+    {
+      "id": "character-innkeeper",
+      "path": "assets/characters/innkeeper.svg",
+      "layer": "character",
+      "tags": "innkeeper,tavern keeper,旅店老板,酒馆老板"
+    },
+    {
+      "id": "character-king",
+      "path": "assets/characters/king.svg",
+      "layer": "character",
+      "tags": "king,monarch,国王,君主"
+    },
+    {
+      "id": "character-knight-heavy",
+      "path": "assets/characters/knight-heavy.svg",
+      "layer": "character",
+      "tags": "knight,heavy armor,骑士,重甲骑士"
+    },
+    {
+      "id": "character-monk",
+      "path": "assets/characters/monk.svg",
+      "layer": "character",
+      "tags": "monk,martial artist,僧侣,武僧"
+    },
+    {
+      "id": "character-necromancer",
+      "path": "assets/characters/necromancer.svg",
+      "layer": "character",
+      "tags": "necromancer,dark mage,死灵法师,亡灵法师"
+    },
+    {
+      "id": "character-paladin",
+      "path": "assets/characters/paladin.svg",
+      "layer": "character",
+      "tags": "paladin,holy knight,圣骑士,圣武士"
+    },
+    {
+      "id": "character-priest",
+      "path": "assets/characters/priest.svg",
+      "layer": "character",
+      "tags": "priest,cleric,牧师,神父"
+    },
+    {
+      "id": "character-princess",
+      "path": "assets/characters/princess.svg",
+      "layer": "character",
+      "tags": "princess,royalty,公主,王族"
+    },
+    {
+      "id": "character-queen",
+      "path": "assets/characters/queen.svg",
+      "layer": "character",
+      "tags": "queen,royalty,女王,王后"
+    },
+    {
+      "id": "character-ranger",
+      "path": "assets/characters/ranger.svg",
+      "layer": "character",
+      "tags": "ranger,tracker,游侠,护林员"
+    },
+    {
+      "id": "character-samurai",
+      "path": "assets/characters/samurai.svg",
+      "layer": "character",
+      "tags": "samurai,warrior,武士,侍"
+    },
+    {
+      "id": "character-thief",
+      "path": "assets/characters/thief.svg",
+      "layer": "character",
+      "tags": "thief,rogue,盗贼,小偷"
+    },
+    {
+      "id": "character-witch",
+      "path": "assets/characters/witch.svg",
+      "layer": "character",
+      "tags": "witch,sorceress,女巫,巫婆"
+    },
+    {
+      "id": "creature-bat",
+      "path": "assets/creatures/bat.svg",
+      "layer": "creature",
+      "tags": "bat,蝙蝠,creature,flying,undead"
+    },
+    {
+      "id": "creature-bear",
+      "path": "assets/creatures/bear.svg",
+      "layer": "creature",
+      "tags": "bear,熊,creature,beast,nature"
+    },
+    {
+      "id": "creature-boar",
+      "path": "assets/creatures/boar.svg",
+      "layer": "creature",
+      "tags": "boar,野猪,creature,beast,nature"
+    },
+    {
+      "id": "creature-centaur",
+      "path": "assets/creatures/centaur.svg",
+      "layer": "creature",
+      "tags": "centaur,半人马,creature,fantasy,mythical"
+    },
+    {
+      "id": "creature-crab",
+      "path": "assets/creatures/crab.svg",
+      "layer": "creature",
+      "tags": "crab,螃蟹,creature,beast,sea"
+    },
+    {
+      "id": "creature-demon",
+      "path": "assets/creatures/demon.svg",
+      "layer": "creature",
+      "tags": "demon,恶魔,creature,evil,fire"
+    },
+    {
+      "id": "creature-fairy",
+      "path": "assets/creatures/fairy.svg",
+      "layer": "creature",
+      "tags": "fairy,精灵,creature,magical,nature"
+    },
+    {
+      "id": "creature-ghost",
+      "path": "assets/creatures/ghost.svg",
+      "layer": "creature",
+      "tags": "ghost,幽灵,creature,undead,ethereal"
+    },
+    {
+      "id": "creature-goblin",
+      "path": "assets/creatures/goblin.svg",
+      "layer": "creature",
+      "tags": "goblin,哥布林,creature,monster,evil"
+    },
+    {
+      "id": "creature-golem",
+      "path": "assets/creatures/golem.svg",
+      "layer": "creature",
+      "tags": "golem,魔像,creature,construct,stone"
+    },
+    {
+      "id": "creature-griffin",
+      "path": "assets/creatures/griffin.svg",
+      "layer": "creature",
+      "tags": "griffin,狮鹫,creature,fantasy,beast"
+    },
+    {
+      "id": "creature-hydra",
+      "path": "assets/creatures/hydra.svg",
+      "layer": "creature",
+      "tags": "hydra,九头蛇,creature,dragon,monster"
+    },
+    {
+      "id": "creature-lich",
+      "path": "assets/creatures/lich.svg",
+      "layer": "creature",
+      "tags": "lich,巫妖,creature,undead,magic"
+    },
+    {
+      "id": "creature-minotaur",
+      "path": "assets/creatures/minotaur.svg",
+      "layer": "creature",
+      "tags": "minotaur,牛头人,creature,monster,mythical"
+    },
+    {
+      "id": "creature-mushroom-creature",
+      "path": "assets/creatures/mushroom-creature.svg",
+      "layer": "creature",
+      "tags": "mushroom-creature,蘑菇怪,creature,nature,fungus"
+    },
+    {
+      "id": "creature-orc",
+      "path": "assets/creatures/orc.svg",
+      "layer": "creature",
+      "tags": "orc,兽人,creature,monster,warrior"
+    },
+    {
+      "id": "creature-owl",
+      "path": "assets/creatures/owl.svg",
+      "layer": "creature",
+      "tags": "owl,猫头鹰,creature,beast,nature"
+    },
+    {
+      "id": "creature-phoenix",
+      "path": "assets/creatures/phoenix.svg",
+      "layer": "creature",
+      "tags": "phoenix,凤凰,creature,fire,magical"
+    },
+    {
+      "id": "creature-rat-giant",
+      "path": "assets/creatures/rat-giant.svg",
+      "layer": "creature",
+      "tags": "rat-giant,巨鼠,creature,beast,rodent"
+    },
+    {
+      "id": "creature-serpent",
+      "path": "assets/creatures/serpent.svg",
+      "layer": "creature",
+      "tags": "serpent,巨蟒,creature,snake,beast"
+    },
+    {
+      "id": "creature-snake",
+      "path": "assets/creatures/snake.svg",
+      "layer": "creature",
+      "tags": "snake,蛇,creature,beast,reptile"
+    },
+    {
+      "id": "creature-troll",
+      "path": "assets/creatures/troll.svg",
+      "layer": "creature",
+      "tags": "troll,巨魔,creature,monster,large"
+    },
+    {
+      "id": "creature-unicorn",
+      "path": "assets/creatures/unicorn.svg",
+      "layer": "creature",
+      "tags": "unicorn,独角兽,creature,magical,fantasy"
+    },
+    {
+      "id": "creature-wraith",
+      "path": "assets/creatures/wraith.svg",
+      "layer": "creature",
+      "tags": "wraith,怨灵,creature,undead,dark"
+    },
+    {
+      "id": "creature-zombie",
+      "path": "assets/creatures/zombie.svg",
+      "layer": "creature",
+      "tags": "zombie,僵尸,creature,undead,horror"
+    },
+    {
+      "id": "item-amulet",
+      "path": "assets/items/amulet.svg",
+      "layer": "item",
+      "tags": "amulet,jewelry,magic,护身符,珠宝"
+    },
+    {
+      "id": "item-armor-body",
+      "path": "assets/items/armor-body.svg",
+      "layer": "item",
+      "tags": "armor,body,protection,胸甲,护甲"
+    },
+    {
+      "id": "item-axe",
+      "path": "assets/items/axe.svg",
+      "layer": "item",
+      "tags": "axe,weapon,fantasy,斧头,武器"
+    },
+    {
+      "id": "item-banner",
+      "path": "assets/items/banner.svg",
+      "layer": "item",
+      "tags": "banner,flag,war,旗帜,战旗"
+    },
+    {
+      "id": "item-book",
+      "path": "assets/items/book.svg",
+      "layer": "item",
+      "tags": "book,magic,knowledge,书籍,魔法"
+    },
+    {
+      "id": "item-chalice",
+      "path": "assets/items/chalice.svg",
+      "layer": "item",
+      "tags": "chalice,goblet,trophy,圣杯,奖杯"
+    },
+    {
+      "id": "item-coin",
+      "path": "assets/items/coin.svg",
+      "layer": "item",
+      "tags": "coin,gold,currency,金币,货币"
+    },
+    {
+      "id": "item-compass",
+      "path": "assets/items/compass.svg",
+      "layer": "item",
+      "tags": "compass,navigation,tool,指南针,导航"
+    },
+    {
+      "id": "item-crossbow",
+      "path": "assets/items/crossbow.svg",
+      "layer": "item",
+      "tags": "crossbow,weapon,ranged,弩,武器"
+    },
+    {
+      "id": "item-dagger",
+      "path": "assets/items/dagger.svg",
+      "layer": "item",
+      "tags": "dagger,weapon,blade,匕首,武器"
+    },
+    {
+      "id": "item-flute",
+      "path": "assets/items/flute.svg",
+      "layer": "item",
+      "tags": "flute,instrument,music,笛子,乐器"
+    },
+    {
+      "id": "item-gauntlet",
+      "path": "assets/items/gauntlet.svg",
+      "layer": "item",
+      "tags": "gauntlet,armor,glove,护手,手套"
+    },
+    {
+      "id": "item-gem",
+      "path": "assets/items/gem.svg",
+      "layer": "item",
+      "tags": "gem,jewel,treasure,宝石,珠宝"
+    },
+    {
+      "id": "item-hammer",
+      "path": "assets/items/hammer.svg",
+      "layer": "item",
+      "tags": "hammer,weapon,tool,锤子,工具"
+    },
+    {
+      "id": "item-helmet",
+      "path": "assets/items/helmet.svg",
+      "layer": "item",
+      "tags": "helmet,armor,protection,头盔,护甲"
+    },
+    {
+      "id": "item-lantern",
+      "path": "assets/items/lantern.svg",
+      "layer": "item",
+      "tags": "lantern,light,tool,灯笼,照明"
+    },
+    {
+      "id": "item-mace",
+      "path": "assets/items/mace.svg",
+      "layer": "item",
+      "tags": "mace,weapon,fantasy,钉头锤,武器"
+    },
+    {
+      "id": "item-map",
+      "path": "assets/items/map.svg",
+      "layer": "item",
+      "tags": "map,scroll,quest,地图,卷轴"
+    },
+    {
+      "id": "item-ring",
+      "path": "assets/items/ring.svg",
+      "layer": "item",
+      "tags": "ring,jewelry,magic,戒指,珠宝"
+    },
+    {
+      "id": "item-rope",
+      "path": "assets/items/rope.svg",
+      "layer": "item",
+      "tags": "rope,item,tool,绳子,工具"
+    },
+    {
+      "id": "item-spear",
+      "path": "assets/items/spear.svg",
+      "layer": "item",
+      "tags": "spear,weapon,polearm,长矛,武器"
+    },
+    {
+      "id": "item-staff",
+      "path": "assets/items/staff.svg",
+      "layer": "item",
+      "tags": "staff,weapon,magic,法杖,魔法"
+    },
+    {
+      "id": "item-trident",
+      "path": "assets/items/trident.svg",
+      "layer": "item",
+      "tags": "trident,weapon,sea,三叉戟,武器"
+    },
+    {
+      "id": "item-wand",
+      "path": "assets/items/wand.svg",
+      "layer": "item",
+      "tags": "wand,magic,weapon,魔杖,魔法"
+    },
+    {
+      "id": "item-whip",
+      "path": "assets/items/whip.svg",
+      "layer": "item",
+      "tags": "whip,weapon,chain,鞭子,武器"
+    },
+    {
+      "id": "object-altar",
+      "path": "assets/objects/altar.svg",
+      "layer": "object",
+      "tags": "altar,religious,magic,祭坛,宗教"
+    },
+    {
+      "id": "object-bed",
+      "path": "assets/objects/bed.svg",
+      "layer": "object",
+      "tags": "bed,furniture,sleep,床,家具"
+    },
+    {
+      "id": "object-bench",
+      "path": "assets/objects/bench.svg",
+      "layer": "object",
+      "tags": "bench,seat,furniture,长凳,家具"
+    },
+    {
+      "id": "object-bookshelf",
+      "path": "assets/objects/bookshelf.svg",
+      "layer": "object",
+      "tags": "bookshelf,furniture,storage,书架,家具"
+    },
+    {
+      "id": "object-bridge",
+      "path": "assets/objects/bridge.svg",
+      "layer": "object",
+      "tags": "bridge,water,structure,桥,建筑"
+    },
+    {
+      "id": "object-cart",
+      "path": "assets/objects/cart.svg",
+      "layer": "object",
+      "tags": "cart,wheel,transport,推车,运输"
+    },
+    {
+      "id": "object-cauldron",
+      "path": "assets/objects/cauldron.svg",
+      "layer": "object",
+      "tags": "cauldron,potion,magic,大锅,药水"
+    },
+    {
+      "id": "object-chair",
+      "path": "assets/objects/chair.svg",
+      "layer": "object",
+      "tags": "chair,furniture,sit,椅子,家具"
+    },
+    {
+      "id": "object-crate",
+      "path": "assets/objects/crate.svg",
+      "layer": "object",
+      "tags": "crate,box,storage,箱子,储物"
+    },
+    {
+      "id": "object-dock",
+      "path": "assets/objects/dock.svg",
+      "layer": "object",
+      "tags": "dock,water,harbor,码头,港口"
+    },
+    {
+      "id": "object-door",
+      "path": "assets/objects/door.svg",
+      "layer": "object",
+      "tags": "door,entrance,wood,门,入口"
+    },
+    {
+      "id": "object-fence",
+      "path": "assets/objects/fence.svg",
+      "layer": "object",
+      "tags": "fence,barrier,wood,栅栏,围栏"
+    },
+    {
+      "id": "object-fountain",
+      "path": "assets/objects/fountain.svg",
+      "layer": "object",
+      "tags": "fountain,water,decoration,喷泉,装饰"
+    },
+    {
+      "id": "object-gate",
+      "path": "assets/objects/gate.svg",
+      "layer": "object",
+      "tags": "gate,entrance,iron,大门,入口"
+    },
+    {
+      "id": "object-hay-bale",
+      "path": "assets/objects/hay-bale.svg",
+      "layer": "object",
+      "tags": "hay,bale,farm,干草堆,农场"
+    },
+    {
+      "id": "object-ladder",
+      "path": "assets/objects/ladder.svg",
+      "layer": "object",
+      "tags": "ladder,climb,tool,梯子,工具"
+    },
+    {
+      "id": "object-market-stall",
+      "path": "assets/objects/market-stall.svg",
+      "layer": "object",
+      "tags": "market,stall,shop,摊位,商店"
+    },
+    {
+      "id": "object-mushroom-obj",
+      "path": "assets/objects/mushroom-obj.svg",
+      "layer": "object",
+      "tags": "mushroom,fungus,nature,蘑菇,自然"
+    },
+    {
+      "id": "object-pillar",
+      "path": "assets/objects/pillar.svg",
+      "layer": "object",
+      "tags": "pillar,column,stone,柱子,石柱"
+    },
+    {
+      "id": "object-signpost",
+      "path": "assets/objects/signpost.svg",
+      "layer": "object",
+      "tags": "signpost,sign,direction,路标,指示牌"
+    },
+    {
+      "id": "object-smithy",
+      "path": "assets/objects/smithy.svg",
+      "layer": "object",
+      "tags": "smithy,forge,craft,铁匠铺,锻造"
+    },
+    {
+      "id": "object-tent",
+      "path": "assets/objects/tent.svg",
+      "layer": "object",
+      "tags": "tent,shelter,camp,帐篷,营地"
+    },
+    {
+      "id": "object-throne",
+      "path": "assets/objects/throne.svg",
+      "layer": "object",
+      "tags": "throne,chair,royal,王座,皇家"
+    },
+    {
+      "id": "object-wagon",
+      "path": "assets/objects/wagon.svg",
+      "layer": "object",
+      "tags": "wagon,cart,transport,马车,运输"
+    },
+    {
+      "id": "object-well",
+      "path": "assets/objects/well.svg",
+      "layer": "object",
+      "tags": "well,water,structure,水井,建筑"
+    },
+    {
+      "id": "ui-badge-shield",
+      "path": "assets/ui/badge-shield.svg",
+      "layer": "ui",
+      "tags": "badge,shield,defense,徽章,盾牌"
+    },
+    {
+      "id": "ui-badge-star",
+      "path": "assets/ui/badge-star.svg",
+      "layer": "ui",
+      "tags": "badge,star,achievement,徽章,星星"
+    },
+    {
+      "id": "ui-button-hover",
+      "path": "assets/ui/button-hover.svg",
+      "layer": "ui",
+      "tags": "button,hover,ui,按钮,悬停"
+    },
+    {
+      "id": "ui-button-normal",
+      "path": "assets/ui/button-normal.svg",
+      "layer": "ui",
+      "tags": "button,normal,ui,按钮,普通"
+    },
+    {
+      "id": "ui-dialog-box",
+      "path": "assets/ui/dialog-box.svg",
+      "layer": "ui",
+      "tags": "dialog,box,message,对话框,消息"
+    },
+    {
+      "id": "ui-divider",
+      "path": "assets/ui/divider.svg",
+      "layer": "ui",
+      "tags": "divider,separator,line,分割线,分隔"
+    },
+    {
+      "id": "ui-frame-ornate",
+      "path": "assets/ui/frame-ornate.svg",
+      "layer": "ui",
+      "tags": "frame,ornate,ui,边框,华丽"
+    },
+    {
+      "id": "ui-frame-simple",
+      "path": "assets/ui/frame-simple.svg",
+      "layer": "ui",
+      "tags": "frame,simple,ui,边框,简洁"
+    },
+    {
+      "id": "ui-icon-attack",
+      "path": "assets/ui/icon-attack.svg",
+      "layer": "ui",
+      "tags": "icon,attack,sword,图标,攻击"
+    },
+    {
+      "id": "ui-icon-coin",
+      "path": "assets/ui/icon-coin.svg",
+      "layer": "ui",
+      "tags": "icon,coin,gold,图标,金币"
+    },
+    {
+      "id": "ui-icon-defense",
+      "path": "assets/ui/icon-defense.svg",
+      "layer": "ui",
+      "tags": "icon,defense,shield,图标,防御"
+    },
+    {
+      "id": "ui-icon-heart",
+      "path": "assets/ui/icon-heart.svg",
+      "layer": "ui",
+      "tags": "icon,heart,health,图标,生命"
+    },
+    {
+      "id": "ui-icon-key",
+      "path": "assets/ui/icon-key.svg",
+      "layer": "ui",
+      "tags": "icon,key,lock,图标,钥匙"
+    },
+    {
+      "id": "ui-icon-mana",
+      "path": "assets/ui/icon-mana.svg",
+      "layer": "ui",
+      "tags": "icon,mana,magic,图标,法力"
+    },
+    {
+      "id": "ui-icon-potion",
+      "path": "assets/ui/icon-potion.svg",
+      "layer": "ui",
+      "tags": "icon,potion,health,图标,药水"
+    },
+    {
+      "id": "ui-icon-speed",
+      "path": "assets/ui/icon-speed.svg",
+      "layer": "ui",
+      "tags": "icon,speed,fast,图标,速度"
+    },
+    {
+      "id": "ui-minimap-frame",
+      "path": "assets/ui/minimap-frame.svg",
+      "layer": "ui",
+      "tags": "minimap,frame,map,小地图,边框"
+    },
+    {
+      "id": "ui-notification",
+      "path": "assets/ui/notification.svg",
+      "layer": "ui",
+      "tags": "notification,alert,message,通知,提醒"
+    },
+    {
+      "id": "ui-progress-bar",
+      "path": "assets/ui/progress-bar.svg",
+      "layer": "ui",
+      "tags": "progress,bar,loading,进度条,加载"
+    },
+    {
+      "id": "ui-scroll-border",
+      "path": "assets/ui/scroll-border.svg",
+      "layer": "ui",
+      "tags": "scroll,border,parchment,卷轴,边框"
+    },
+    {
+      "id": "ui-tab-active",
+      "path": "assets/ui/tab-active.svg",
+      "layer": "ui",
+      "tags": "tab,active,menu,标签页,菜单"
+    },
+    {
+      "id": "ui-tooltip-bg",
+      "path": "assets/ui/tooltip-bg.svg",
+      "layer": "ui",
+      "tags": "tooltip,background,info,提示框,背景"
     }
   ]
 }

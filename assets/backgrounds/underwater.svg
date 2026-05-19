@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" data-asset-id="bg-underwater" data-layer="background" data-tags="underwater,海底,ocean,deep,submarine">
+  <defs>
+    <linearGradient id="uwDeep" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a0a2a"/>
+      <stop offset="100%" stop-color="#0a0a1a"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#uwDeep)"/>
+  <ellipse cx="400" cy="-50" rx="500" ry="100" fill="#1a1a4a" opacity="0.3"/>
+  <ellipse cx="150" cy="420" rx="80" ry="40" fill="#1a2a3a" opacity="0.3"/>
+  <ellipse cx="500" cy="450" rx="120" ry="50" fill="#1a2a3a" opacity="0.2"/>
+  <ellipse cx="700" cy="400" rx="60" ry="30" fill="#1a2a3a" opacity="0.25"/>
+  <circle cx="200" cy="200" r="3" fill="#88ccff" opacity="0.3"/>
+  <circle cx="400" cy="300" r="4" fill="#88ccff" opacity="0.2"/>
+  <circle cx="600" cy="150" r="3" fill="#88ccff" opacity="0.25"/>
+  <circle cx="300" cy="380" r="5" fill="#88ccff" opacity="0.15"/>
+  <circle cx="700" cy="280" r="3" fill="#88ccff" opacity="0.2"/>
+</svg>

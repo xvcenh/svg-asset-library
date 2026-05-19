@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" data-asset-id="object-hay-bale" data-layer="object" data-origin="center-bottom" data-tags="hay,bale,farm,干草堆,农场">
+  <ellipse cx="40" cy="50" rx="30" ry="16" fill="#d4a856"/>
+  <ellipse cx="40" cy="36" rx="28" ry="14" fill="#e8c060"/>
+  <ellipse cx="40" cy="50" rx="30" ry="4" fill="#b8960a"/>
+  <line x1="20" y1="36" x2="20" y2="50" stroke="#b8960a" stroke-width="1"/>
+  <line x1="40" y1="24" x2="40" y2="54" stroke="#b8960a" stroke-width="1"/>
+  <line x1="60" y1="36" x2="60" y2="50" stroke="#b8960a" stroke-width="1"/>
+</svg>

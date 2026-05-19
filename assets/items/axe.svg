@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" data-asset-id="item-axe" data-layer="item" data-origin="center-bottom" data-tags="axe,weapon,fantasy,斧头,武器">
+  <rect x="28" y="10" width="4" height="42" rx="2" fill="#6b4a20"/>
+  <path d="M10 8 L32 14 L32 28 Z" fill="#8a8a9a"/>
+  <line x1="10" y1="8" x2="32" y2="14" stroke="#666" stroke-width="1"/>
+</svg>

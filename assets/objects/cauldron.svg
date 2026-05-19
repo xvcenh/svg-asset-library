@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" data-asset-id="object-cauldron" data-layer="object" data-origin="center-bottom" data-tags="cauldron,potion,magic,大锅,药水">
+  <path d="M16 30 Q16 64 40 64 Q64 64 64 30 Z" fill="#5a5a5a"/>
+  <ellipse cx="40" cy="30" rx="24" ry="6" fill="#8a8a9a"/>
+  <ellipse cx="40" cy="30" rx="18" ry="4" fill="#2a6b2a" opacity="0.7"/>
+  <path d="M12 26 Q8 30 12 34" stroke="#8a8a9a" stroke-width="3" fill="none"/>
+  <path d="M68 26 Q72 30 68 34" stroke="#8a8a9a" stroke-width="3" fill="none"/>
+  <circle cx="34" cy="34" r="2" fill="#a78bfa" opacity="0.6"/>
+  <circle cx="46" cy="36" r="1.5" fill="#a78bfa" opacity="0.6"/>
+</svg>

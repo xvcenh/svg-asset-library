@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" data-asset-id="object-smithy" data-layer="object" data-origin="center-bottom" data-tags="smithy,forge,craft,铁匠铺,锻造">
+  <rect x="12" y="36" width="56" height="34" rx="2" fill="#5a5a5a"/>
+  <path d="M16 36 L40 16 L64 36" fill="#8a3333"/>
+  <rect x="28" y="48" width="24" height="16" rx="2" fill="#3a3a3a"/>
+  <rect x="32" y="52" width="16" height="8" rx="1" fill="#ff6600" opacity="0.6"/>
+  <rect x="58" y="44" width="6" height="26" fill="#8a8a9a"/>
+  <rect x="16" y="36" width="4" height="34" fill="#6b4a20"/>
+  <rect x="60" y="36" width="4" height="34" fill="#6b4a20"/>
+</svg>
