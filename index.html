@@ -328,7 +328,7 @@ function updateUrl() {
 }
 
 function render() {
-  const words = search.value.trim().toLowerCase().split(/\\s+/).filter(Boolean);
+  const words = search.value.trim().toLowerCase().split(/\s+/).filter(Boolean);
   const matches = assets.filter(asset => (filter === "all" || asset.layer === filter) && words.every(word => asset.searchText.includes(word)));
   stats.textContent = matches.length + " / " + assets.length + " assets";
   grid.replaceChildren();
