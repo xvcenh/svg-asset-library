@@ -213,6 +213,10 @@
   }
   .spec-section ul { padding-left: 20px; margin: 8px 0; }
   .spec-section li { margin: 4px 0; color: #aaa; }
+.preview img { width: 100%; height: 100%; object-fit: contain; }
+  .file-link { display: inline-block; margin-top: 10px; color: #c9b3fa; font-size: .78rem; }
+  .card .info .meta, .card .info .tag, footer { color: #b4abc5; }
+  :focus-visible { outline: 2px solid #d4b8ff; outline-offset: 3px; }
 </style>
 </head>
 <body>
@@ -227,7 +231,7 @@
   <div class="filter-bar">
     <div class="tabs" id="tabs"></div>
     <div class="search-wrap">
-      <input type="text" id="search" placeholder="Search assets (name, tags, 中文)...">
+      <input type="search" aria-label="Search assets" id="search" placeholder="Search assets (name, tags, 中文)...">
     </div>
   </div>
 
@@ -286,87 +290,111 @@
     <h3>Integration</h3>
     <pre>// Scene engine loads by ID:
 { "id": "warrior", "gx": 4, "gy": 5 }
-// Looks for assets/svg/characters/warrior.svg
+// Resolves the declared SVG path from manifest.json
 // Falls back to emoji if SVG not found</pre>
   </div>
 
   <footer>
     <a href="https://github.com/xvcenh/svg-asset-library">GitHub</a> · 
     <a href="https://github.com/xvcenh/svg-scene-engine">Scene Engine</a> · 
-    200 assets · Dark Fantasy Style
+    <span id="total"></span>Dark Fantasy Style
   </footer>
 </div>
 
 <script>
-const RAW_BASE = 'https://raw.githubusercontent.com/xvcenh/svg-asset-library/main/';
+const search = document.querySelector("#search");
+const grid = document.querySelector("#grid");
+const stats = document.querySelector("#stats");
+const tabs = document.querySelector("#tabs");
+const params = new URLSearchParams(location.search);
+let filter = params.get("layer") || "all";
+let assets = [];
+search.value = params.get("q") || "";
 
-let allAssets = [];
-let currentFilter = 'all';
+function node(tag, className, text = "") {
+  const element = document.createElement(tag);
+  element.className = className;
+  element.textContent = text;
+  return element;
+}
 
-async function init() {
-  const resp = await fetch(RAW_BASE + 'manifest.json');
-  const data = await resp.json();
-  allAssets = data.assets;
-
-  // Stats
-  const cats = {};
-  allAssets.forEach(a => { cats[a.layer] = (cats[a.layer]||0) + 1; });
-  const statsEl = document.getElementById('stats');
-  statsEl.innerHTML = `<div class="stat">Total: <span>${allAssets.length}</span></div>` +
-    Object.entries(cats).sort().map(([k,v]) => 
-      `<div class="stat">${k}: <span>${v}</span></div>`
-    ).join('');
-
-  // Tabs
-  const tabsEl = document.getElementById('tabs');
-  const layers = ['all', ...Object.keys(cats).sort()];
-  tabsEl.innerHTML = layers.map(l => 
-    `<div class="tab${l==='all'?' active':''}" data-filter="${l}">
-      ${l==='all'?'All':l}<span class="count">${l==='all'?allAssets.length:cats[l]}</span>
-    </div>`
-  ).join('');
-  tabsEl.querySelectorAll('.tab').forEach(t => {
-    t.addEventListener('click', () => {
-      tabsEl.querySelectorAll('.tab').forEach(x => x.classList.remove('active'));
-      t.classList.add('active');
-      currentFilter = t.dataset.filter;
-      render();
-    });
-  });
-
-  render();
+function updateUrl() {
+  const url = new URL(location.href);
+  for (const [name, value] of [["layer", filter === "all" ? "" : filter], ["q", search.value.trim()]]) {
+    if (value) url.searchParams.set(name, value);
+    else url.searchParams.delete(name);
+  }
+  history.replaceState(null, "", url);
 }
 
 function render() {
-  const q = document.getElementById('search').value.toLowerCase().trim();
-  let filtered = allAssets;
-  if (currentFilter !== 'all') filtered = filtered.filter(a => a.layer === currentFilter);
-  if (q) filtered = filtered.filter(a => 
-    a.id.includes(q) || a.tags.includes(q) || a.layer.includes(q) || a.path.includes(q)
-  );
-
-  const grid = document.getElementById('grid');
-  if (!filtered.length) {
-    grid.innerHTML = '<div class="empty">No assets found.</div>';
-    return;
+  const words = search.value.trim().toLowerCase().split(/\\s+/).filter(Boolean);
+  const matches = assets.filter(asset => (filter === "all" || asset.layer === filter) && words.every(word => asset.searchText.includes(word)));
+  stats.textContent = matches.length + " / " + assets.length + " assets";
+  grid.replaceChildren();
+  if (!matches.length) grid.append(node("p", "empty", "No matches. Try a shorter keyword or another layer."));
+  const cards = document.createDocumentFragment();
+  for (const asset of matches) {
+    const card = node("article", "card");
+    const preview = node("a", "preview");
+    preview.href = asset.path;
+    preview.setAttribute("aria-label", "Open " + asset.id + " SVG");
+    const image = new Image();
+    image.src = asset.path;
+    image.alt = asset.id;
+    image.loading = "lazy";
+    preview.append(image);
+    const info = node("div", "info");
+    info.append(node("h2", "name", asset.id), node("p", "meta", asset.layer));
+    const tags = node("div", "tags");
+    for (const keyword of asset.tags.split(",").slice(0, 5)) tags.append(node("span", "tag", keyword.trim()));
+    info.append(tags);
+    const file = node("a", "file-link", "Download SVG ↓");
+    file.href = asset.path;
+    file.download = asset.path.split("/").pop();
+    info.append(file);
+    card.append(preview, info);
+    cards.append(card);
   }
-
-  grid.innerHTML = filtered.map(a => {
-    const svgUrl = RAW_BASE + a.path;
-    const tags = a.tags.split(',').slice(0,5).map(t => `<span class="tag">${t.trim()}</span>`).join('');
-    return `<div class="card">
-      <div class="preview"><img src="${svgUrl}" alt="${a.id}" style="max-width:100%;max-height:100%;object-fit:contain;" loading="lazy"></div>
-      <div class="info">
-        <div class="name">${a.id}</div>
-        <div class="meta">${a.layer} · ${a.path.split('/').pop()}</div>
-        <div class="tags">${tags}</div>
-      </div>
-    </div>`;
-  }).join('');
+  grid.append(cards);
 }
 
-document.getElementById('search').addEventListener('input', render);
-init();
-</script>
-</body>
-</html>
+async function init() {
+  const response = await fetch("manifest.json");
+  if (!response.ok) throw new Error("manifest.json: " + response.status);
+  const manifest = await response.json();
+  assets = manifest.assets.map(asset => ({
+    ...asset, searchText: [asset.id, asset.tags, asset.path, asset.layer].join(" ").toLowerCase()
+  }));
+  const counts = new Map([["all", assets.length]]);
+  for (const asset of assets) counts.set(asset.layer, (counts.get(asset.layer) || 0) + 1);
+  if (!counts.has(filter)) filter = "all";
+  for (const [layer, count] of counts) {
+    const button = node("button", "tab", layer === "all" ? "All" : layer);
+    button.type = "button";
+    button.dataset.filter = layer;
+    button.append(node("span", "count", count));
+    tabs.append(button);
+  }
+  function select(layer) {
+    filter = layer;
+    for (const button of tabs.children) {
+      const active = button.dataset.filter === filter;
+      button.classList.toggle("active", active);
+      button.setAttribute("aria-pressed", String(active));
+    }
+    render();
+  }
+  tabs.addEventListener("click", event => {
+    const button = event.target.closest("button[data-filter]");
+    if (button) { select(button.dataset.filter); updateUrl(); }
+  });
+  search.addEventListener("input", () => { render(); updateUrl(); });
+  document.getElementById("total").textContent = assets.length + " assets · ";
+  select(filter);
+}
+init().catch(() => {
+  stats.textContent = "The asset manifest could not be loaded.";
+  grid.append(node("p", "empty", "Reload the page, or run a local HTTP server from the repository root."));
+});
+</script></body></html>
