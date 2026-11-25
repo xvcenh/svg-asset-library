@@ -226,7 +226,7 @@
     <p>Categorized SVG assets for AI scene composition engine. Browse, search, and integrate.</p>
   </header>
 
-  <div class="stats" id="stats"></div>
+  <div class="stats" id="stats" role="status" aria-live="polite"></div>
 
   <div class="filter-bar">
     <div class="tabs" id="tabs"></div>
@@ -332,7 +332,19 @@ function render() {
   const matches = assets.filter(asset => (filter === "all" || asset.layer === filter) && words.every(word => asset.searchText.includes(word)));
   stats.textContent = matches.length + " / " + assets.length + " assets";
   grid.replaceChildren();
-  if (!matches.length) grid.append(node("p", "empty", "No matches. Try a shorter keyword or another layer."));
+  if (!matches.length) {
+    const empty = node("div", "empty");
+    empty.append(node("p", "", "No matching assets."));
+    const reset = node("button", "tab", "Clear search and filters");
+    reset.type = "button";
+    reset.onclick = () => {
+      search.value = "";
+      tabs.querySelector('[data-filter="all"]').click();
+      search.focus();
+    };
+    empty.append(reset);
+    grid.append(empty);
+  }
   const cards = document.createDocumentFragment();
   for (const asset of matches) {
     const card = node("article", "card");
